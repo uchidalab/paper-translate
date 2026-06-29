@@ -26,6 +26,13 @@ mkdir -p "$paper_dir"
 printf 'test paper\n' > "$paper_dir/paper.pdf"
 printf '{"id":"1706.03762"}\n' > "$paper_dir/meta.json"
 
+git -C "$WORK" remote set-url origin git@github.com:taiseee/paper-translate.git
+if "$WORK/scripts/commit-paper-library.sh"; then
+  echo 'expected the root-repository guard to reject paper changes' >&2
+  exit 1
+fi
+git -C "$WORK" remote set-url origin "$REMOTE"
+
 "$WORK/scripts/commit-paper-library.sh"
 
 [[ "$(git --git-dir="$REMOTE" log -1 --format=%s main)" == 'docs: 論文 1706.03762 を追加' ]]

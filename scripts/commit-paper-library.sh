@@ -5,6 +5,7 @@ set -euo pipefail
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
 REMOTE="${PAPER_LIBRARY_GIT_REMOTE:-origin}"
+ROOT_REPOSITORY="${PAPER_LIBRARY_ROOT_REPOSITORY:-taiseee/paper-translate}"
 
 log() {
   printf '[paper-library-git] %s\n' "$*" >&2
@@ -20,8 +21,15 @@ if [[ -z "$branch" ]]; then
   exit 1
 fi
 
-if ! git_root remote get-url "$REMOTE" >/dev/null 2>&1; then
+if ! remote_url="$(git_root remote get-url "$REMOTE" 2>/dev/null)"; then
   log "ERROR: Git remote '$REMOTE' does not exist"
+  exit 1
+fi
+
+remote_repository="$(printf '%s' "$remote_url" \
+  | sed -E 's#^git@[^:]+:##; s#^https?://[^/]+/##; s#\.git$##')"
+if [[ "$remote_repository" == "$ROOT_REPOSITORY" ]]; then
+  log "ERROR: refusing to commit papers to root repository $ROOT_REPOSITORY"
   exit 1
 fi
 
