@@ -1,0 +1,20 @@
+{
+  "id": "2506.22881",
+  "title": "CLIP-like Model as a Foundational Density Ratio Estimator",
+  "authors": [
+    "Fumiya Uchiyama",
+    "Rintaro Yanagi",
+    "Shohei Taniguchi",
+    "Shota Takashiro",
+    "Masahiro Suzuki",
+    "Hirokatsu Kataoka",
+    "Yusuke Iwasawa",
+    "Yutaka Matsuo"
+  ],
+  "abstract": "Density ratio estimation is a core concept in statistical machine learning because it provides a unified mechanism for tasks such as importance weighting, divergence estimation, and likelihood-free inference, but its potential in vision and language models has not been fully explored. Modern vision-language encoders such as CLIP and SigLIP are trained with contrastive objectives that implicitly optimize log density ratios between joint and marginal image-text distributions, which implicitly learn similarity scores proportional to log density ratios. However, prior work has largely focused on their embedding utility, and the density-ratio structure induced by contrastive learning has not been systematically examined or exploited in multimodal applications. To address this gap, we reinterpret CLIP-style models as pretrained and general-purpose density ratio estimators and show that this perspective enables new algorithmic capabilities. We present a unified explanation of how contrastive objectives estimate density ratios and propose two practical applications: Importance Weight Learning and KL divergence estimation. Our Importance Weight Learning method requires only a single additional prompt and improves F1 scores by up to 7 points. We further show that CLIP-based density ratios support estimation of KL divergences that quantify how conditioning on an image or text alters the distribution of the other modality. Through qualitative examples and an N-gram analysis of captions, we find that these divergences capture semantic diversity and mode structure in multimodal data. Leveraging this property, we introduce a simple KL-guided data curation method that achieves performance competitive with LAION2B filtering.",
+  "published": "2025-06-28",
+  "category": "cs.CV",
+  "pdf_url": "https://arxiv.org/pdf/2506.22881v3",
+  "thumbnail": "thumbnail.png",
+  "added_at": "2026-06-30T04:32:16Z"
+}

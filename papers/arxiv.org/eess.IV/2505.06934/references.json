@@ -1,0 +1,279 @@
+{
+  "id": "2505.06934",
+  "references": [
+    {
+      "arxiv_id": "2411.14517",
+      "title": "The Double-Ellipsoid Geometry of CLIP"
+    },
+    {
+      "arxiv_id": "2409.13079",
+      "title": "Embedding Geometries of Contrastive Language-Image Pre-Training"
+    },
+    {
+      "arxiv_id": "2403.10961",
+      "title": "Energy-Based Models with Applications to Speech and Language Processing"
+    },
+    {
+      "arxiv_id": "2402.18068",
+      "title": "SynArtifact: Classifying and Alleviating Artifacts in Synthetic Images via Vision-Language Model"
+    },
+    {
+      "arxiv_id": "2402.14848",
+      "title": "Same Task, More Tokens: the Impact of Input Length on the Reasoning Performance of Large Language Models"
+    },
+    {
+      "arxiv_id": "2304.09172",
+      "title": "Hyperbolic Image-Text Representations"
+    },
+    {
+      "arxiv_id": "2303.16491",
+      "title": "Implicit Diffusion Models for Continuous Super-Resolution"
+    },
+    {
+      "arxiv_id": "2303.13648",
+      "title": "ChatGPT or Grammarly? Evaluating ChatGPT on Grammatical Error Correction Benchmark"
+    },
+    {
+      "arxiv_id": "2210.09276",
+      "title": "Imagic: Text-Based Real Image Editing with Diffusion Models"
+    },
+    {
+      "arxiv_id": "2205.14100",
+      "title": "GIT: A Generative Image-to-text Transformer for Vision and Language"
+    },
+    {
+      "arxiv_id": "2205.01068",
+      "title": "OPT: Open Pre-trained Transformer Language Models"
+    },
+    {
+      "arxiv_id": "2204.06125",
+      "title": "Hierarchical Text-Conditional Image Generation with CLIP Latents"
+    },
+    {
+      "arxiv_id": "2203.02053",
+      "title": "Mind the Gap: Understanding the Modality Gap in Multi-modal Contrastive Representation Learning"
+    },
+    {
+      "arxiv_id": "2201.12086",
+      "title": "BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation"
+    },
+    {
+      "arxiv_id": "2111.09734",
+      "title": "ClipCap: CLIP Prefix for Image Captioning"
+    },
+    {
+      "arxiv_id": "2203.00667",
+      "title": "Generative Adversarial Networks"
+    },
+    {
+      "arxiv_id": "2104.14951",
+      "title": "SRDiff: Single Image Super-Resolution with Diffusion Probabilistic Models"
+    },
+    {
+      "arxiv_id": "2103.00020",
+      "title": "Learning Transferable Visual Models From Natural Language Supervision"
+    },
+    {
+      "arxiv_id": "2010.02502",
+      "title": "Denoising Diffusion Implicit Models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "High-Dimensional Probability: An Introduction with Applications in Data Science"
+    },
+    {
+      "arxiv_id": "2006.16241",
+      "title": "The Many Faces of Robustness: A Critical Analysis of Out-of-Distribution Generalization"
+    },
+    {
+      "arxiv_id": "2006.11239",
+      "title": "Denoising Diffusion Probabilistic Models"
+    },
+    {
+      "arxiv_id": "2005.14165",
+      "title": "Language Models are Few-Shot Learners"
+    },
+    {
+      "arxiv_id": "2005.10242",
+      "title": "Understanding Contrastive Representation Learning through Alignment and Uniformity on the Hypersphere"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Image denoising review: From classical to state-of-the-art approaches"
+    },
+    {
+      "arxiv_id": "1912.13171",
+      "title": "Deep Learning on Image Denoising: An overview"
+    },
+    {
+      "arxiv_id": "1909.06399",
+      "title": "Image Inpainting: A Review"
+    },
+    {
+      "arxiv_id": "1907.07174",
+      "title": "Natural Adversarial Examples"
+    },
+    {
+      "arxiv_id": "1903.12261",
+      "title": "Benchmarking Neural Network Robustness to Common Corruptions and Perturbations"
+    },
+    {
+      "arxiv_id": "1405.0312",
+      "title": "Microsoft COCO: Common Objects in Context"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Framing Image Description as a Ranking Task: Data, Models and Evaluation Metrics"
+    },
+    {
+      "arxiv_id": null,
+      "title": "From learning models of natural image patches to whole image restoration"
+    },
+    {
+      "arxiv_id": null,
+      "title": "ImageNet: A large-scale hierarchical image database"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Concentration of mass on convex bodies"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Statistics of Natural Images: Scaling in the Woods"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Measuring Skewness and Kurtosis"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Stochastic Relaxation, Gibbs Distributions, and the Bayesian Restoration of Images"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Tests for departure from normality. Empirical results for the distributions of b2 and √b1"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A Test of Goodness of Fit"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Two Effects, One Trigger: On the Modality Gap, Object Bias, and Information Imbalance in Contrastive Vision-Language Representation Learning"
+    },
+    {
+      "arxiv_id": null,
+      "title": "AUTO-ENCODING VARIATIONAL BAYES"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Implicit Generation and Modeling with Energy Based Models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Open-webtext corpus"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Supplementary Materials : Generative Image Inpainting with Contextual Attention"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Pre-training of deep bidirectional trans-formers for language understanding"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Im-agenet object localization challenge"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Machine learning - a probabilistic perspective"
+    },
+    {
+      "arxiv_id": null,
+      "title": "This PDF file includes: Materials and Methods"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Pattern recognition and machine learning , volume 4"
+    },
+    {
+      "arxiv_id": null,
+      "title": "S Gpt-neo: Large scale autoregressive language modeling with mesh-tensorflow. If you use this software, please cite it using these metadata"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Towards understanding the modality gap in clip"
+    },
+    {
+      "arxiv_id": null,
+      "title": "The computation of W is performed only once and a-priori , based on a representative dataset. Memory and computational requirements are very mild, allowing efficient use also in low-resource settings"
+    },
+    {
+      "arxiv_id": null,
+      "title": "We are the first to propose a direct computation of likelihood functions for images and text prompts, under the CLIP learned distribution. For"
+    },
+    {
+      "arxiv_id": null,
+      "title": "We perform quantitative statistical experiments using Anderson-Darling and D’Agostino-Pearson tests, indicating the features in the whitened space can be well approximated by a normal distribution"
+    }
+  ],
+  "citations": [
+    {
+      "arxiv_id": "2606.20702",
+      "title": "Beyond Templates: Revisiting Zero-Shot Remote Sensing through Meta-Prompting"
+    },
+    {
+      "arxiv_id": "2605.14893",
+      "title": "Your CLIP has 164 dimensions of noise: Exploring the embeddings covariance eigenspectrum of contrastively pretrained vision-language transformers"
+    },
+    {
+      "arxiv_id": "2605.13352",
+      "title": "GeoFlowVLM: Geometry-Aware Joint Uncertainty for Frozen Vision-Language Embedding"
+    },
+    {
+      "arxiv_id": "2603.21786",
+      "title": "The Universal Normal Embedding"
+    },
+    {
+      "arxiv_id": "2603.15026",
+      "title": "Training-free Detection of Generated Videos via Spatial-Temporal Likelihoods"
+    },
+    {
+      "arxiv_id": "2603.14610",
+      "title": "Make it SING: Analyzing Semantic Invariants in Classifiers"
+    },
+    {
+      "arxiv_id": "2603.13884",
+      "title": "SCoCCA: Multi-modal Sparse Concept Decomposition via Canonical Correlation Analysis"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Training-free Detection of Text-to-video Generations via Over-coherence"
+    },
+    {
+      "arxiv_id": "2602.24012",
+      "title": "InfoNCE Induces Gaussian Distribution"
+    },
+    {
+      "arxiv_id": "2601.21662",
+      "title": "Epistemic Uncertainty Quantification for Pre-trained VLMs via Riemannian Flow Matching"
+    },
+    {
+      "arxiv_id": "2512.05590",
+      "title": "General and Domain-Specific Zero-shot Detection of Generated Images via Conditional Likelihood"
+    },
+    {
+      "arxiv_id": "2512.03994",
+      "title": "Training-Free Policy Violation Detection via Activation-Space Whitening in LLMs"
+    },
+    {
+      "arxiv_id": "2510.05976",
+      "title": "Diffusion Models for Low-Light Image Enhancement: A Multi-Perspective Taxonomy and Performance Analysis"
+    },
+    {
+      "arxiv_id": "2506.22881",
+      "title": "CLIP-like Model as a Foundational Density Ratio Estimator"
+    }
+  ]
+}

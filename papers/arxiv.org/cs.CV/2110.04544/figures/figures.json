@@ -1,0 +1,51 @@
+[
+  {
+    "file": "fig-00.png",
+    "figure_no": 1,
+    "page": 2,
+    "caption": "Fig. 1 Comparison of CoOp and our CLIP-Adapter. Instead of using learnable prompts, CLIP-Adapter adopts lightweight residual-style adapters after CLIP’s text and visual encoders. During training, CLIP-Adapter does not require to calculate and propagate the gradients through CLIP’s encoder, which thu",
+    "score": 101.0
+  },
+  {
+    "file": "fig-01.png",
+    "figure_no": 2,
+    "page": 4,
+    "caption": "Fig. 2 Comparison of different visual classification architectures. The image in the top row with a green region shows the naive pipeline for image classification [32], where f and W represents the visual feature and classifier weight respectively. The following pink, yellow and blue regions represe",
+    "score": 66.0
+  },
+  {
+    "file": "fig-02.png",
+    "figure_no": 3,
+    "page": 7,
+    "caption": "Fig. 3 Main results of few-shot learning on 11 datasets. CLIP-Adapter consistently shows better performance over previous baselines across different training shots.",
+    "score": 3.0
+  },
+  {
+    "file": "fig-03.png",
+    "figure_no": 4,
+    "page": 8,
+    "caption": "Fig. 4 Absolute performance gain of CLIP-Adapter against hand-crafted prompts on different datasets.",
+    "score": 6.0
+  },
+  {
+    "file": "fig-04.png",
+    "figure_no": 5,
+    "page": 9,
+    "caption": "Fig. 5 Comparison among different variants of CLIP- Adapter.",
+    "score": 3.0
+  },
+  {
+    "file": "fig-05.png",
+    "figure_no": 6,
+    "page": 11,
+    "caption": "Fig. 6 Visualization of different learned feature manifolds via t-SNE.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-06.png",
+    "figure_no": 7,
+    "page": 14,
+    "caption": "Fig. 7 Results under CLIP-style preprocessing of few-shot learning on 11 datasets. Compared to CoOp-style preprocessing in Figure 3 of the main body, all results are boosted and CLIP-Adapter still shows leading performance over previous baselines across different training shots.",
+    "score": 3.0
+  }
+]

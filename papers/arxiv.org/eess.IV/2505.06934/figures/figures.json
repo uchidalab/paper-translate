@@ -1,0 +1,184 @@
+[
+  {
+    "file": "fig-00.png",
+    "figure_no": 1,
+    "page": 1,
+    "caption": "Figure 1. Raw, centered and whitened CLIP geometry. The whitened CLIP space is isotropic, transforming the original ellip- soid shaped space into an hypersphere. In this space, the embed- ding norm reflects likelihood level. Higher norms correspond to lower probabilities.",
+    "score": 80.0
+  },
+  {
+    "file": "fig-01.png",
+    "figure_no": 2,
+    "page": 2,
+    "caption": "Figure 2. Log-likelihood of real and generated images with artifacts. Real images of a hand and a dog (left) and three similar AI generated images with artifacts. Real images have higher log-likelihood than generated images with artifacts.",
+    "score": 18.0
+  },
+  {
+    "file": "fig-02.png",
+    "figure_no": 3,
+    "page": 3,
+    "caption": "Figure 3. Norm histograms of ImageNet variations. Top left: ImageNet-A, comprising of natural adversarial examples, closely aligns with clean ImageNet due to their natural origins. Top right: ImageNet-C histograms under varying impulse noise levels of severity display significantly larger norms than",
+    "score": 0.0
+  },
+  {
+    "file": "fig-03.png",
+    "figure_no": 4,
+    "page": 4,
+    "caption": "Figure 4. Raw CLIP and W-CLIP analytic comparison. The covariance matrices of raw CLIP (a) and W-CLIP (b) demonstrate the effectiveness of the whitening transformation in achieving unit variance and zero correlation among features. Histograms of four CLIP features (c) vary in mean and variance, wher",
+    "score": 0.0
+  },
+  {
+    "file": "fig-04.png",
+    "figure_no": 5,
+    "page": 5,
+    "caption": "Figure 5. Likelihood variation for different levels of details. The original MS-COCO caption is marked with an arrow, with deviations underlined. Left: Removing details, such as character names or locations, increases likelihood. Right: Adding specificity, such as replacing “woman” with “bride” or “",
+    "score": 0.0
+  },
+  {
+    "file": "fig-05.png",
+    "figure_no": 6,
+    "page": 6,
+    "caption": "Figure 6. Bias in image generation. Left: Using CLIP-encoded images in MS-COCO validation set as a condition for generating new images. The histogram shows a bias towards lower likelihoods in generated images. Right: Iteratively using UnCLIP to generate images encoded by CLIP with a fixed seed. The ",
+    "score": 0.0
+  },
+  {
+    "file": "fig-06.png",
+    "figure_no": 7,
+    "page": 7,
+    "caption": "Figure 7. Differences between likelihood functions. Our proposed likelihood estimation is highly sensitive to grammatical errors (a), demonstrated by the removal of all nouns from the captions, and text type (b), where Text Data refers to a general text dataset (OpenWebText) and Caption Data refers ",
+    "score": 15.0
+  },
+  {
+    "file": "fig-07.png",
+    "figure_no": 8,
+    "page": 8,
+    "caption": "Figure 8. Full circle SLERP example. The full circle SLERP is performed in both the raw CLIP space (a) and in the W-CLIP space (b). The different angle between embeddings in both space is presented. In the raw CLIP space the full circle SLERP results with noise for most of the degrees not between th",
+    "score": 0.0
+  },
+  {
+    "file": "fig-08.png",
+    "figure_no": 9,
+    "page": 13,
+    "caption": "Figure 9. Log-likelihood of real and generated images with artifacts. Real images of zebras and a surfer (left) and three similar AI generated images with artifacts. Real images have higher log-likelihoods than AI generated images with artifacts.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-09.png",
+    "figure_no": 10,
+    "page": 14,
+    "caption": "Figure 10. Log-likelihood of real captions and captions with artifacts. Real captions, framed with a blue frame and atrifacted captions, where we removed the first or last words from a caption, or one of the middle words. In all cases the original caption has the highest log-likelihood score.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-10.png",
+    "figure_no": 11,
+    "page": 15,
+    "caption": "Figure 11. ImageNet-C histograms on all corruptions. All corruptions have a significantly higher norm (lower log-likelihood) than ImageNet. For most corruptions, as level of corruption increases the norm increases. Some corruptions do not show this monotonic behavior (motion/glass blur for example) ",
+    "score": 0.0
+  },
+  {
+    "file": "fig-11.png",
+    "figure_no": 12,
+    "page": 16,
+    "caption": "Figure 12. Likelihood for different text types. Comparing likelihood values computed for MS-COCO captions and OpenWebText general text sentences. The sentences from OpenWebText are filtered to have similar lengths to MS-COCO captions. LLMs (OPT, NEO, GPT2) treat captions similarly to general text wh",
+    "score": 6.0
+  },
+  {
+    "file": "fig-12.png",
+    "figure_no": 13,
+    "page": 16,
+    "caption": "Figure 13. Likelihood drift when removing nouns Comparing likelihood values computed for MS-COCO captions with and without nouns. None of the models show a drift like our likelihood (Tab. 5).",
+    "score": 0.0
+  },
+  {
+    "file": "fig-13.png",
+    "figure_no": 14,
+    "page": 17,
+    "caption": "Figure 14. Log-likelihood values and correlations. Log-likelihoods are computed on 5,000 captions from the MS-COCO validation set, with correlations measuring the alignment of each model’s log-likelihood and ours.",
+    "score": 6.0
+  },
+  {
+    "file": "fig-14.png",
+    "figure_no": 15,
+    "page": 17,
+    "caption": "Figure 15. Examples of differences between language models and our method. The sorted index represents the position out of 5000 captions from MS-COCO, ranked from low to high likelihood values. The relative likelihood index is compared among GPT2 (LLM), BLIP (VLM), and our method. Top left: Our meth",
+    "score": 70.0
+  },
+  {
+    "file": "fig-15.png",
+    "figure_no": 16,
+    "page": 20,
+    "caption": "Figure 16. Normal distribution tests on image embeddings. Top row - mean value and standard deviation per feature, over all groups of embeddings. Bottom - histogram of mean values of each feature. In all plots the red line represents the test threshold. Left - Anderson-Darling test, threshold is 0.7",
+    "score": 0.0
+  },
+  {
+    "file": "fig-16.png",
+    "figure_no": 17,
+    "page": 20,
+    "caption": "Figure 17. Normal distribution tests on text embeddings. Top row - mean value and standard deviation per feature, over all groups of embeddings. Bottom - histogram of mean values of each feature. In all plots the red line represents the test threshold. Left - Anderson-Darling test, threshold is 0.75",
+    "score": 0.0
+  },
+  {
+    "file": "fig-17.png",
+    "figure_no": 18,
+    "page": 21,
+    "caption": "Figure 18. Mean and variance of all whitened features. We show the mean and variance of all the 768 features of the whitened embeddings. There are minor deviations from 0 (for mean) and 1 (for variance). For mean values the deviation is up to 0.0015% and in the case of the variance the deviations ar",
+    "score": 0.0
+  },
+  {
+    "file": "fig-18.png",
+    "figure_no": 19,
+    "page": 22,
+    "caption": "Figure 19. Normal distribution tests with different data sizes Anderson-Darling average scores and standard deviation (a) and D’Agostino-Pearson p-value average scores and standard deviation (b). Threshold is under 0.752 (marked with a black line) and above 0.05, respectively. Computing the whitenin",
+    "score": 0.0
+  },
+  {
+    "file": "fig-19.png",
+    "figure_no": 20,
+    "page": 23,
+    "caption": "Figure 20. 2D full circle SLERP example. The SLERP points are in blue and the circle perimeter is in orange. Examples of a simple 2D case of full circle SLERP. When both points are on the circle (a) the SLERP points follow the circle perimeter perfectly. If one of the points deviates from the circle",
+    "score": 0.0
+  },
+  {
+    "file": "fig-20.png",
+    "figure_no": 21,
+    "page": 23,
+    "caption": "Figure 21. Full circle SLERP example. The full circle SLERP is performed in both the raw CLIP space (a) and in the W-CLIP space (b). The different angle between embeddings in both space is presented. In the raw CLIP space the full circle SLERP results with noise for most of the degrees not between t",
+    "score": 0.0
+  },
+  {
+    "file": "fig-21.png",
+    "figure_no": 22,
+    "page": 24,
+    "caption": "Figure 22. Opposite image generated in the raw CLIP space. The structured noise produced by CLIP exhibits 4×4 pixel blocks and a restricted color palette (black (’0’ in all color channels), white (’1’ in all color channels), red, green, blue, magenta (’1’ in red and blue channels), cyan (’1’ in gree",
+    "score": 0.0
+  },
+  {
+    "file": "fig-22.png",
+    "figure_no": 23,
+    "page": 25,
+    "caption": "Figure 23. Generation bias. Iteratively using UnCLIP to generate images encoded by CLIP with two fixed seeds. The raw process gradually becomes noisy, whereas with normalization (to √",
+    "score": 0.0
+  },
+  {
+    "file": "fig-23.png",
+    "figure_no": 24,
+    "page": 26,
+    "caption": "Figure 24. Generation bias. Iteratively using UnCLIP to generate images encoded by CLIP with two fixed seeds. The raw process gradually becomes noisy, whereas with normalization (to √",
+    "score": 0.0
+  },
+  {
+    "file": "fig-24.png",
+    "figure_no": 25,
+    "page": 26,
+    "caption": "Figure 25. Adding details to concepts. The original caption from MS-COCO is framed in blue. Adding details decreases the likelihood.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-25.png",
+    "figure_no": 26,
+    "page": 27,
+    "caption": "Figure 26. Removing details from concepts. The original caption from MS-COCO is framed with a blue frame. Removing different details increases the likelihood.",
+    "score": 0.0
+  }
+]

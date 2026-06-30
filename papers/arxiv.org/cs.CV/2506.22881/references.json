@@ -1,0 +1,162 @@
+{
+  "id": "2506.22881",
+  "references": [
+    {
+      "arxiv_id": "2505.06934",
+      "title": "Whitened CLIP as a Likelihood Surrogate of Images and Captions"
+    },
+    {
+      "arxiv_id": "2502.09252",
+      "title": "On the Importance of Embedding Norms in Self-Supervised Learning"
+    },
+    {
+      "arxiv_id": "2411.14517",
+      "title": "The Double-Ellipsoid Geometry of CLIP"
+    },
+    {
+      "arxiv_id": "2304.14108",
+      "title": "DataComp: In search of the next generation of multimodal datasets"
+    },
+    {
+      "arxiv_id": "2304.08485",
+      "title": "Visual Instruction Tuning"
+    },
+    {
+      "arxiv_id": "2303.15343",
+      "title": "Sigmoid Loss for Language Image Pre-Training"
+    },
+    {
+      "arxiv_id": "2301.12597",
+      "title": "BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models"
+    },
+    {
+      "arxiv_id": "2212.09663",
+      "title": "Norm of word embedding encodes information gain"
+    },
+    {
+      "arxiv_id": "2104.08718",
+      "title": "CLIPScore: A Reference-free Evaluation Metric for Image Captioning"
+    },
+    {
+      "arxiv_id": "2103.00020",
+      "title": "Learning Transferable Visual Models From Natural Language Supervision"
+    },
+    {
+      "arxiv_id": "2102.08981",
+      "title": "Conceptual 12M: Pushing Web-Scale Image-Text Pre-Training To Recognize Long-Tail Visual Concepts"
+    },
+    {
+      "arxiv_id": "1807.03748",
+      "title": "Representation Learning with Contrastive Predictive Coding"
+    },
+    {
+      "arxiv_id": "1606.03498",
+      "title": "Improved Techniques for Training GANs"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Neural Word Embedding as Implicit Matrix Factorization"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Food-101 - Mining Discriminative Components with Random Forests"
+    },
+    {
+      "arxiv_id": "1405.0312",
+      "title": "Microsoft COCO: Common Objects in Context"
+    },
+    {
+      "arxiv_id": "1310.4546",
+      "title": "Distributed Representations of Words and Phrases and their Compositionality"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Perceived Age Estimation under Lighting Condition Change by Covariate Shift Adaptation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Dependence Minimizing Regression with Model Selection for Non-Linear Causal Inference under Non-Gaussian Noise"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A Least-squares Approach to Direct Importance Estimation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Estimating Squared-Loss Mutual Information for Independent Component Analysis"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Mutual information estimation reveals global associations between stimuli and biological processes"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Automated Flower Classification over a Large Number of Classes"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Approximating Mutual Information by Maximum Likelihood Density Ratio Estimation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Direct Importance Estimation with Model Selection and Its Application to Covariate Shift Adaptation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Covariate Shift Adaptation by Importance Weighted Cross Validation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Discriminative learning for differing training and test distributions"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Semiparametric density estimation under a two-sample density ratio model"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Improving predictive inference under covariate shift by weighting the log-likelihood function"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Inferences for case-control and semiparametric two-sample density ratio models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Word Association Norms, Mutual Information, and Lexicography"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Differential Geometry of Curved Exponential Families-Curvatures and Information Loss"
+    },
+    {
+      "arxiv_id": null,
+      "title": "If you use this software"
+    },
+    {
+      "arxiv_id": null,
+      "title": "AUTO-ENCODING VARIATIONAL BAYES"
+    },
+    {
+      "arxiv_id": null,
+      "title": "GENERATIVE ADVERSARIAL NETS"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Noise-Contrastive Estimation of Unnormalized Statistical Models, with Applications to Natural Image Statistics"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Direct density ratio estimation for large-scale covariate shift adaptation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "cats and dogs"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Clip benchmark"
+    }
+  ],
+  "citations": []
+}

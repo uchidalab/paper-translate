@@ -1,0 +1,4327 @@
+{
+  "id": "2110.04544",
+  "references": [
+    {
+      "arxiv_id": "2304.01195",
+      "title": "Not All Features Matter: Enhancing Few-shot CLIP with Adaptive Prior Refinement"
+    },
+    {
+      "arxiv_id": "2303.02151",
+      "title": "Prompt, Generate, Then Cache: Cascade of Foundation Models Makes Strong Few-Shot Learners"
+    },
+    {
+      "arxiv_id": "2212.06785",
+      "title": "Learning 3D Representations from 2D Pre-Trained Models via Image-to-Point Masked Autoencoders"
+    },
+    {
+      "arxiv_id": "2210.08823",
+      "title": "Scaling & Shifting Your Features: A New Baseline for Efficient Model Tuning"
+    },
+    {
+      "arxiv_id": "2208.10442",
+      "title": "Image as a Foreign Language: BEiT Pretraining for All Vision and Vision-Language Tasks"
+    },
+    {
+      "arxiv_id": "2208.03550",
+      "title": "Frozen CLIP Models are Efficient Video Learners"
+    },
+    {
+      "arxiv_id": "2206.07382",
+      "title": "Sparse Structure Search for Parameter-Efficient Tuning"
+    },
+    {
+      "arxiv_id": "2206.06522",
+      "title": "LST: Ladder Side-Tuning for Parameter and Memory Efficient Transfer Learning"
+    },
+    {
+      "arxiv_id": "2205.11169",
+      "title": "PEVL: Position-enhanced Pre-training and Prompt Tuning for Vision-language Models"
+    },
+    {
+      "arxiv_id": "2205.11166",
+      "title": "Prompt Tuning for Discriminative Pre-trained Language Models"
+    },
+    {
+      "arxiv_id": "2204.14198",
+      "title": "Flamingo: a Visual Language Model for Few-Shot Learning"
+    },
+    {
+      "arxiv_id": "2204.08790",
+      "title": "ELEVATER: A Benchmark and Toolkit for Evaluating Language-Augmented Visual Models"
+    },
+    {
+      "arxiv_id": "2203.12119",
+      "title": "Visual Prompt Tuning"
+    },
+    {
+      "arxiv_id": "2201.03514",
+      "title": "Black-Box Tuning for Language-Model-as-a-Service"
+    },
+    {
+      "arxiv_id": "2112.06825",
+      "title": "VL-ADAPTER: Parameter-Efficient Transfer Learning for Vision-and-Language Tasks"
+    },
+    {
+      "arxiv_id": "2110.04366",
+      "title": "Towards a Unified View of Parameter-Efficient Transfer Learning"
+    },
+    {
+      "arxiv_id": "2109.11797",
+      "title": "CPT: Colorful Prompt Tuning for Pre-trained Vision-Language Models"
+    },
+    {
+      "arxiv_id": "2109.04332",
+      "title": "PPT: Pre-trained Prompt Tuning for Few-shot Learning"
+    },
+    {
+      "arxiv_id": "2109.01903",
+      "title": "Robust fine-tuning of zero-shot models"
+    },
+    {
+      "arxiv_id": "2109.01134",
+      "title": "Learning to Prompt for Vision-Language Models"
+    },
+    {
+      "arxiv_id": "2108.10904",
+      "title": "SimVLM: Simple Visual Language Model Pretraining with Weak Supervision"
+    },
+    {
+      "arxiv_id": "2107.13586",
+      "title": "Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing"
+    },
+    {
+      "arxiv_id": "2107.07651",
+      "title": "Align before Fuse: Vision and Language Representation Learning with Momentum Distillation"
+    },
+    {
+      "arxiv_id": "2106.13884",
+      "title": "Multimodal Few-Shot Learning with Frozen Language Models"
+    },
+    {
+      "arxiv_id": "2106.01401",
+      "title": "Container: Context Aggregation Network"
+    },
+    {
+      "arxiv_id": "2105.14734",
+      "title": "Dual-stream Network for Visual Recognition"
+    },
+    {
+      "arxiv_id": "2104.08691",
+      "title": "The Power of Scale for Parameter-Efficient Prompt Tuning"
+    },
+    {
+      "arxiv_id": "2103.10385",
+      "title": "GPT Understands, Too"
+    },
+    {
+      "arxiv_id": "2103.00020",
+      "title": "Learning Transferable Visual Models From Natural Language Supervision"
+    },
+    {
+      "arxiv_id": "2102.05918",
+      "title": "Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision"
+    },
+    {
+      "arxiv_id": "2101.07448",
+      "title": "Fast Convergence of DETR with Spatially Modulated Co-Attention"
+    },
+    {
+      "arxiv_id": "2012.15723",
+      "title": "Making Pre-trained Language Models Better Few-shot Learners"
+    },
+    {
+      "arxiv_id": "2012.12877",
+      "title": "Training data-efficient image transformers & distillation through attention"
+    },
+    {
+      "arxiv_id": "2010.15980",
+      "title": "Eliciting Knowledge from Language Models Using Automatically Generated Prompts"
+    },
+    {
+      "arxiv_id": "2010.11929",
+      "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale"
+    },
+    {
+      "arxiv_id": "2006.16241",
+      "title": "The Many Faces of Robustness: A Critical Analysis of Out-of-Distribution Generalization"
+    },
+    {
+      "arxiv_id": "2005.14165",
+      "title": "Language Models are Few-Shot Learners"
+    },
+    {
+      "arxiv_id": "2005.12872",
+      "title": "End-to-End Object Detection with Transformers"
+    },
+    {
+      "arxiv_id": "2004.06165",
+      "title": "Oscar: Object-Semantics Aligned Pre-training for Vision-Language Tasks"
+    },
+    {
+      "arxiv_id": "1911.12543",
+      "title": "How Can We Know What Language Models Know?"
+    },
+    {
+      "arxiv_id": "1911.02116",
+      "title": "Unsupervised Cross-lingual Representation Learning at Scale"
+    },
+    {
+      "arxiv_id": "1909.11740",
+      "title": "UNITER: Learning UNiversal Image-TExt Representations"
+    },
+    {
+      "arxiv_id": "1908.07490",
+      "title": "LXMERT: Learning Cross-Modality Encoder Representations from Transformers"
+    },
+    {
+      "arxiv_id": "1908.02265",
+      "title": "ViLBERT: Pretraining Task-Agnostic Visiolinguistic Representations for Vision-and-Language Tasks"
+    },
+    {
+      "arxiv_id": "1907.07174",
+      "title": "Natural Adversarial Examples"
+    },
+    {
+      "arxiv_id": "1906.10770",
+      "title": "Deep Modular Co-Attention Networks for Visual Question Answering"
+    },
+    {
+      "arxiv_id": "1905.03197",
+      "title": "Unified Language Model Pre-training for Natural Language Understanding and Generation"
+    },
+    {
+      "arxiv_id": "1905.13549",
+      "title": "Learning Robust Global Representations by Penalizing Local Predictive Power"
+    },
+    {
+      "arxiv_id": "1902.10811",
+      "title": "Do ImageNet Classifiers Generalize to ImageNet?"
+    },
+    {
+      "arxiv_id": "1902.00751",
+      "title": "Parameter-Efficient Transfer Learning for NLP"
+    },
+    {
+      "arxiv_id": "1812.05252",
+      "title": "Dynamic Fusion With Intra- and Inter-Modality Attention Flow for Visual Question Answering"
+    },
+    {
+      "arxiv_id": "1805.07932",
+      "title": "Bilinear Attention Networks"
+    },
+    {
+      "arxiv_id": "1709.00029",
+      "title": "EuroSAT: A Novel Dataset and Deep Learning Benchmark for Land Use and Land Cover Classification"
+    },
+    {
+      "arxiv_id": "1707.07998",
+      "title": "Bottom-Up and Top-Down Attention for Image Captioning and Visual Question Answering"
+    },
+    {
+      "arxiv_id": "1706.03762",
+      "title": "Attention is All you Need"
+    },
+    {
+      "arxiv_id": "1704.04861",
+      "title": "MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications"
+    },
+    {
+      "arxiv_id": "1512.03385",
+      "title": "Deep Residual Learning for Image Recognition"
+    },
+    {
+      "arxiv_id": "1506.01497",
+      "title": "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks"
+    },
+    {
+      "arxiv_id": "1411.4038",
+      "title": "Fully convolutional networks for semantic segmentation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Food-101 - Mining Discriminative Components with Random Forests"
+    },
+    {
+      "arxiv_id": "1409.1556",
+      "title": "Very Deep Convolutional Networks for Large-Scale Image Recognition"
+    },
+    {
+      "arxiv_id": null,
+      "title": "3D Object Representations for Fine-Grained Categorization"
+    },
+    {
+      "arxiv_id": "1311.3618",
+      "title": "Describing Textures in the Wild"
+    },
+    {
+      "arxiv_id": "1306.5151",
+      "title": "Fine-Grained Visual Classification of Aircraft"
+    },
+    {
+      "arxiv_id": null,
+      "title": "ImageNet classification with deep convolutional neural networks"
+    },
+    {
+      "arxiv_id": "1212.0402",
+      "title": "UCF101: A Dataset of 101 Human Actions Classes From Videos in The Wild"
+    },
+    {
+      "arxiv_id": null,
+      "title": "SUN database: Large-scale scene recognition from abbey to zoo"
+    },
+    {
+      "arxiv_id": null,
+      "title": "ImageNet: A large-scale hierarchical image database"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Automated Flower Classification over a Large Number of Classes"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Learning Generative Visual Models from Few Training Examples: An Incremental Bayesian Approach Tested on 101 Object Categories"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Care of aged doctors"
+    },
+    {
+      "arxiv_id": null,
+      "title": "PointCLIP V2: Adapting CLIP for Powerful 3D Open-world Learning"
+    },
+    {
+      "arxiv_id": "2101.00190",
+      "title": "Prefix-Tuning: Optimizing Continuous Prompts for Generation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Language Models are Unsupervised Multitask Learners"
+    },
+    {
+      "arxiv_id": "1810.04805",
+      "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Iasonas Kokkinos, Sammy Mohamed, and Andrea Vedaldi"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Visualizing Data using t-SNE"
+    },
+    {
+      "arxiv_id": null,
+      "title": "2022) Can language understand depth?"
+    },
+    {
+      "arxiv_id": null,
+      "title": "juris-dictional claims in"
+    },
+    {
+      "arxiv_id": null,
+      "title": "2022) Tip-adapter: Training-free adaption of clip for few-shot classification"
+    }
+  ],
+  "citations": [
+    {
+      "arxiv_id": null,
+      "title": "T2Net: Taxonomy-Guided Tree-Structured Prompt Learning for Few-Shot Remote Sensing Scene Classification"
+    },
+    {
+      "arxiv_id": null,
+      "title": "DSCL-ReID: Person re-identification with dynamic prompts and contrastive learning"
+    },
+    {
+      "arxiv_id": null,
+      "title": "MTF-CLIP: Efficient multimodal action recognition framework exploring multi-criteria token fusion"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Insights beneath the surface: Physics-guided multi-task learning for in situ defect detection in laser powder bed fusion"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Morphogenetic visual systems: Self-organizing perception for the open world"
+    },
+    {
+      "arxiv_id": null,
+      "title": "DGPT: Domain-guided prompt tuning for improved generalization in vision-language models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A semi-supervised self-organised prototype tree-based method for few-shot remote sensing scene classification"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Medical Vision-Language Models: Existing Technologies, Clinical Applications and Future Directions"
+    },
+    {
+      "arxiv_id": "2606.22955",
+      "title": "Evo-RAD: Navigating Rare Retinal Disease Diagnosis via Self-Evolving Agentic Retrieval"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Multi-task adaptive CLIP for enhanced person re-identification across domains"
+    },
+    {
+      "arxiv_id": "2606.22497",
+      "title": "Benchmarking Vision-Language Models for Microscopic Plant Image Understanding"
+    },
+    {
+      "arxiv_id": "2606.22567",
+      "title": "Concept-Constrained Prompt Learning for Few-Shot CLIP Adaptation"
+    },
+    {
+      "arxiv_id": "2606.21446",
+      "title": "Synergistic Dual-Branch Adaptation for Multi-modal Generalized Category Discovery"
+    },
+    {
+      "arxiv_id": "2606.19944",
+      "title": "Timage: A Generative Text-in-Image Paradigm for Fine-Tuning Vision-Language Models"
+    },
+    {
+      "arxiv_id": "2606.19712",
+      "title": "Efficient Neural Network Model Selection for Few-Class Application Datasets"
+    },
+    {
+      "arxiv_id": "2606.18560",
+      "title": "Constraining to Generalize: Subspace Tuning for Few-shot Generalization of Audio-Language Models"
+    },
+    {
+      "arxiv_id": "2606.17431",
+      "title": "Visual Retrieval-Augmented Generation for Silhouette-Guided Animal Art"
+    },
+    {
+      "arxiv_id": "2606.17815",
+      "title": "Beyond Native Success: Auditing Deployment-Interface Exposure of CLIP Backdoors"
+    },
+    {
+      "arxiv_id": "2606.18472",
+      "title": "Domain Generalizable Adaptation of 3D Vision-Language Models via Regularized Fine-Tuning"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Unveiling PEFT Robustness to Noisy Labels in VLMs: A Gradient-Loss Decoupling Perspective"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Beyond Post-hoc Fusion: Rethinking Cross-Modal Interaction Timing in Few-Shot Learning"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Surg-NAT+: negation-aware vision-language refinement for fine-grained surgical understanding."
+    },
+    {
+      "arxiv_id": "2606.14883",
+      "title": "Understanding Cross-Modal Contributions in Continual Vision-Language Models: A Theoretical Perspective"
+    },
+    {
+      "arxiv_id": "2606.11682",
+      "title": "Parameter-Efficient Adapter Tuning for Tabular-Image Multimodal Learning"
+    },
+    {
+      "arxiv_id": "2606.04922",
+      "title": "Geometry-Aware Distillation for Prompt Tuning Biomedical Vision-Language Models"
+    },
+    {
+      "arxiv_id": "2606.03610",
+      "title": "SkelHCC: A Hyperbolic CLIP-Driven Cache Adaptation Framework for Skeleton-based One-Shot Action Recognition"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Enhancing Cross-dataset Zero-shot Generalization in Colorectal Polyp Detection Using Vision-language Models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "BHGraphAdapter: Parameter-Efficient VLMs Tuning Meets Hyper-Graph Learning"
+    },
+    {
+      "arxiv_id": null,
+      "title": "SFC-net: Semantic filtering and collaborative contrast for zero-shot anomaly detection"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Adversarial robustness of multi-source data fusion on data text classification supported by information technology"
+    },
+    {
+      "arxiv_id": "2606.01945",
+      "title": "Beyond Low-Rank: Low-Rank Sparse Prompting via Spiking Neural Network and Prompt Factorization"
+    },
+    {
+      "arxiv_id": null,
+      "title": "DTVAD: Dual-branch aligned temporal-aware framework for open-vocabulary video anomaly detection"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Modeling Semantic and Localization Uncertainty for Weakly Supervised Temporal Action Localization"
+    },
+    {
+      "arxiv_id": null,
+      "title": "CO3+: Improved Collaborative Consortium of Foundation Models for Open-World Few-Shot Learning"
+    },
+    {
+      "arxiv_id": null,
+      "title": "ProMML for robust few-shot adaptation of vision-language models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "ONE-FOR-ALL: Towards unified zero-shot anomaly detection via adaptive prompt learning"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Hierarchical intra-inter modal adaptation for vision-language models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "NEXPRO: Multimodal Negative Expression Prompting for Open-Set Video-based Facial Expression Recognition"
+    },
+    {
+      "arxiv_id": null,
+      "title": "AGPLwS: Attribute-Guided Prompt Learning with Stability for Few-Shot Remote Sensing Image Scene Classification"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Leveraging VLMs for MUDA: Category-specific prompt with multi-modal interactive LoRA."
+    },
+    {
+      "arxiv_id": null,
+      "title": "What The Doodle: Sketching Mental Pictures with Decoding Brain Signals, Language Understanding, and AI Creativity"
+    },
+    {
+      "arxiv_id": null,
+      "title": "From fiction to UGC: Intermedial production of nostalgia in urbanising China through multimodal embedding"
+    },
+    {
+      "arxiv_id": null,
+      "title": "You Can See Me: Retrieval-Augmented Framework for Divergent Perception in Animal Art Generation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Beneficial Noise as Neighborhood Uncertainty for Few-Shot Vision–Language Medical Classification"
+    },
+    {
+      "arxiv_id": null,
+      "title": "MedDATP: Adapting CLIP for Few-shot Medical Image Classification via Domain Adapter and Task Prompts"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Enhancing medical anomaly detection via text-adapted few-shot learning with visual-language models"
+    },
+    {
+      "arxiv_id": "2606.00673",
+      "title": "T-CLIP: Enabling Thermal Perception for Contrastive Language-Image Pretraining"
+    },
+    {
+      "arxiv_id": "2605.30968",
+      "title": "Variational Adapter for Cross-modal Similarity Representation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Cross-modal Alignment Algorithm and Dynamic Semantic Enhancement in Multimodal Translation"
+    },
+    {
+      "arxiv_id": "2606.11626",
+      "title": "Adapting Vision-Language Models from Iconic to Inclusive for Multi-label Recognition Without Labels"
+    },
+    {
+      "arxiv_id": "2605.26421",
+      "title": "HydraPrompt: An Adaptive and Asymmetric Framework of Vision-Language Models for Synthetic Image Detection"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Pixel’s Neighbors Are Noteworthy: Localized Vision–Language Attention for Remote Sensing Semantic Segmentation"
+    },
+    {
+      "arxiv_id": "2605.25479",
+      "title": "MAIL++: Multi-Modal Bi-directional Agent Layer for Vision-Language Models"
+    },
+    {
+      "arxiv_id": "2605.26292",
+      "title": "Evi-Steer: Learning to Steer Biomedical Vision-Language Models through Efficient and Generalizable Evidential Tuning"
+    },
+    {
+      "arxiv_id": null,
+      "title": "FS-Head: Text-Image Prototype Fusion with Gated Temperature Scaling for Few-Shot and Cross-Domain Recognition"
+    },
+    {
+      "arxiv_id": "2605.19623",
+      "title": "PrAda: Few-Shot Visual Adaptation for Text-Prompted Segmentation"
+    },
+    {
+      "arxiv_id": "2605.18464",
+      "title": "PERL: Parameter Efficient Reasoning in CLIP Latent Space"
+    },
+    {
+      "arxiv_id": "2605.17727",
+      "title": "GraSP-VL: Length as a Semantic Granularity Interface for Vision-Language Representations"
+    },
+    {
+      "arxiv_id": "2605.15615",
+      "title": "Neutral-Reference Prompting for Vision-Language Models"
+    },
+    {
+      "arxiv_id": "2605.15736",
+      "title": "BiomedAP: A Vision-Informed Dual-Anchor Framework with Gated Cross-Modal Fusion for Robust Medical Vision-Language Adaptation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "VRAI: A Novel Apperance-Consistent Retrieval-Augmented Framework with Cross-Domain Transfer for Few-Shot Steel Defect Recognition"
+    },
+    {
+      "arxiv_id": "2605.13835",
+      "title": "Unlocking Patch-Level Features for CLIP-Based Class-Incremental Learning"
+    },
+    {
+      "arxiv_id": "2605.13161",
+      "title": "A$_3$B$_2$: Adaptive Asymmetric Adapter for Alleviating Branch Bias in Vision-Language Image Classification with Few-Shot Learning"
+    },
+    {
+      "arxiv_id": "2605.11939",
+      "title": "Cluster-Aware Neural Collapse Prompt Tuning for Long-Tailed Generalization of Vision-Language Models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Exploring Open-Weight Foundation Models: A Systematic Review from Transformers to Multimodal AI"
+    },
+    {
+      "arxiv_id": "2605.11107",
+      "title": "Birds of a Feather Flock Together: Background-Invariant Representations via Linear Structure in VLMs"
+    },
+    {
+      "arxiv_id": "2605.09549",
+      "title": "When Adaptation Fails: A Gradient-Based Diagnosis of Collapsed Gating in Vision-Language Prompt Learning"
+    },
+    {
+      "arxiv_id": "2605.07494",
+      "title": "DIMoE-Adapters: Dynamic Expert Evolution for Continual Learning in Vision-Language Models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Visual Prompts and Class Prototype Learning for Domain Adaptive Infrared Facial Emotion Recognition"
+    },
+    {
+      "arxiv_id": "2605.06477",
+      "title": "GeoStack: A Framework for Quasi-Abelian Knowledge Composition in VLMs"
+    },
+    {
+      "arxiv_id": "2605.05910",
+      "title": "Plug-and-play Class-aware Knowledge Injection for Prompt Learning with Visual-Language Model"
+    },
+    {
+      "arxiv_id": "2605.04504",
+      "title": "SpecPL: Disentangling Spectral Granularity for Prompt Learning"
+    },
+    {
+      "arxiv_id": "2605.05054",
+      "title": "Direct Product Flow Matching: Decoupling Radial and Angular Dynamics for Few-Shot Adaptation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Exploring fine-grained multimodal prompts for visual relation detection with adaptation of VLMs"
+    },
+    {
+      "arxiv_id": null,
+      "title": "DLR-CLIP: dual-level refinement for few-shot vision-language adaptation"
+    },
+    {
+      "arxiv_id": "2605.08181",
+      "title": "Text-Guided Multi-Scale Frequency Representation Adaptation"
+    },
+    {
+      "arxiv_id": "2605.03390",
+      "title": "Enhancing Self-Supervised Talking Head Forgery Detection via a Training-Free Dual-System Framework"
+    },
+    {
+      "arxiv_id": "2605.03403",
+      "title": "GRPO-TTA: Test-Time Visual Tuning for Vision-Language Models via GRPO-Driven Reinforcement Learning"
+    },
+    {
+      "arxiv_id": "2605.03642",
+      "title": "The Detector Teaches Itself: Lightweight Self-Supervised Adaptation for Open-Vocabulary Object Detection"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A LLM-Driven Acoustic Semantic Enriched Framework for Underwater Acoustic Target Recognition"
+    },
+    {
+      "arxiv_id": null,
+      "title": "MVP: Modeling Variants of Prompts for Vision-Language Models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Semantic-Guided Modal Alignment for Multimodal Cardiovascular Disease Detection"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Complementary Subspace Low-Rank Adaptation of Vision-Language Models for Few-Shot Classification"
+    },
+    {
+      "arxiv_id": null,
+      "title": "PGA: A Prompt-Guided Adapter for Enhancing Deeply Supervised Polyp Segmentation Models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Adaptive Task-Incremental Learning For Underwater Acoustic Recognition Based on Mixture-of-Experts Adapter"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Faclip : Learnable Fine-Grained Prompts and Multi-Scale Fusion for Zero-Shot Anomaly Detection"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Visible-guided multigranularity prompt learning for visible-infrared person re-identification"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Real-time roadworks detection and high definition (HD) map updates for autonomous vehicles"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Prompting multimodal vision-language models for automated student engagement prediction"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Multi-granularity Prompt Learning with vision-language model for few-shot remote sensing image scene classification"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Exploring representation learning from vision-language models for open-vocabulary HOI detection"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Aligning Vision-Language Model With Fine-Grained Semantics for Open-Vocabulary Segmentation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Improving face forgery detection via hierarchical mixture of experts and fine-grained visual-text alignment"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A Scene-Aware Degradation Universal Re-Identification Framework for Adverse Weather"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Unsupervised fine-tuning of vision-language models by fusing classifier tuning and visual prompt tuning."
+    },
+    {
+      "arxiv_id": null,
+      "title": "Attribute-calibrated local embeddings for prompt learning in vision-language models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Audio–visual segmentation via hierarchical side tuning with state space model"
+    },
+    {
+      "arxiv_id": "2605.00051",
+      "title": "Learning from the Unseen: Generative Data Augmentation for Geometric-Semantic Accident Anticipation"
+    },
+    {
+      "arxiv_id": "2604.23977",
+      "title": "Multi-View Synergistic Learning with Vision-Language Adaption for Low-Resource Biomedical Image Classification"
+    },
+    {
+      "arxiv_id": "2604.19432",
+      "title": "DINO Eats CLIP: Adapting Beyond Knowns for Open-set 3D Object Retrieval"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Transformer-enhanced multimodal learning model for multimedia content understanding"
+    },
+    {
+      "arxiv_id": "2604.17822",
+      "title": "GR4CIL: Gap-compensated Routing for CLIP-based Class Incremental Learning"
+    },
+    {
+      "arxiv_id": "2604.17629",
+      "title": "BioVLM: Routing Prompts, Not Parameters, for Cross-Modality Generalization in Biomedical VLMs"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A CLIP-Guided Multi-Objective Optimization Framework for Sustainable Design: Integrating Aesthetic Evaluation, Energy Efficiency, and Life Cycle Environmental Performance"
+    },
+    {
+      "arxiv_id": "2604.15678",
+      "title": "HyCal: A Training-Free Prototype Calibration Method for Cross-Discipline Few-Shot Class-Incremental Learning"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Multimodal 3D object detection for autonomous driving under vision-language supervision: a contrastive-learning perspective"
+    },
+    {
+      "arxiv_id": "2604.12780",
+      "title": "Efficient Adversarial Training via Criticality-Aware Fine-Tuning"
+    },
+    {
+      "arxiv_id": "2604.16487",
+      "title": "Geometry-Aware CLIP Retrieval via Local Cross-Modal Alignment and Steering"
+    },
+    {
+      "arxiv_id": "2604.10637",
+      "title": "Language Prompt vs. Image Enhancement: Boosting Object Detection With CLIP in Hazy Environments"
+    },
+    {
+      "arxiv_id": null,
+      "title": "PV-CLIP: Synergizing Geometric Heuristics and Zero-Shot Foundation Models for Efficient Fall Recognition"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Multi-modal collaborative learning for facial expression recognition in e-learning platforms"
+    },
+    {
+      "arxiv_id": null,
+      "title": "EEG-to-fMRI knowledge distillation empowers few-shot resting-state fMRI vigilance detection"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Finetuning medical vision‑language models for interpretable and fine‑grained disease classification"
+    },
+    {
+      "arxiv_id": null,
+      "title": "MammoVQA: a reinforcement learning framework for clinically aligned mammographic question answering"
+    },
+    {
+      "arxiv_id": null,
+      "title": "ABVnet: Adapter-based fine-tuning Bimodal ViTs network for Dynamic Facial Expression Recognition in-the-wild"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Inverse Feature Consistency Federated Unlearning for Vision-Language Model"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Toward Federated Learning Against Noisy Clients via CLIP-Guided Prototypes"
+    },
+    {
+      "arxiv_id": "2604.01118",
+      "title": "Lightweight Prompt-Guided CLIP Adaptation for Monocular Depth Estimation"
+    },
+    {
+      "arxiv_id": "2604.00609",
+      "title": "TALENT: Target-aware Efficient Tuning for Referring Image Segmentation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "FedCLIPOT: Federated CLIP model via parameter reusing and optimal transport"
+    },
+    {
+      "arxiv_id": null,
+      "title": "F3-SD: Focal feature fusion with self-distillation on large vision-language models for cross-modal retrieval"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Triple-Way Visual Modulation for Zero-Shot Sketch-Based Image Retrieval"
+    },
+    {
+      "arxiv_id": null,
+      "title": "DW-ReID: Vision–Language Learning for Person Re-Identification Under Diverse Weather Conditions"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Parameter-efficient contrastive language-image pre-training (CLIP) adaptation for few-shot anomaly detection in ultra-widefield fundus images."
+    },
+    {
+      "arxiv_id": null,
+      "title": "Dual-model joint prompting for image dehazing"
+    },
+    {
+      "arxiv_id": null,
+      "title": "SLDPC: Slide-Level Dual-Prompt Collaboration for few-shot whole slide image classification"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Towards few-shot deepfake detection with an enhanced CLIP model"
+    },
+    {
+      "arxiv_id": null,
+      "title": "DGSeg: Dual guidance with textual priors and structural awareness for open-vocabulary remote sensing segmentation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "CE-CLIP: Cloud–edge collaborative fine-tuning for multimodal adaptation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Cross-Domain Class Context Optimization for Universal Domain Adaptation"
+    },
+    {
+      "arxiv_id": "2604.00279",
+      "title": "The Geometry of Compromise: Unlocking Generative Capabilities via Controllable Modality Alignment"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Calibrated Feature Fusion: Enhancing Few-Shot Industrial Anomaly Detection via Cross-Stage Representation Alignment"
+    },
+    {
+      "arxiv_id": "2603.28575",
+      "title": "ChemCLIP: Bridging Organic and Inorganic Anticancer Compounds Through Contrastive Learning"
+    },
+    {
+      "arxiv_id": "2603.28555",
+      "title": "Domain-Invariant Prompt Learning for Vision-Language Models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Low-data cross-modal adaptation for remote sensing with proxy-enhanced multi-granularity feature caching"
+    },
+    {
+      "arxiv_id": "2603.26356",
+      "title": "From Pen to Pixel: Translating Hand-Drawn Plots into Graphical APIs via a Novel Benchmark and Efficient Adapter"
+    },
+    {
+      "arxiv_id": null,
+      "title": "HistoSB-Net: Semantic Bridging for Data-Limited Cross-Modal Histopathological Diagnosis"
+    },
+    {
+      "arxiv_id": "2603.25891",
+      "title": "Few Shots Text to Image Retrieval: New Benchmarking Dataset and Optimization Methods"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Safety-Oriented Prompt Design for Small Vision–Language Models in Early Wildfire Smoke Detection"
+    },
+    {
+      "arxiv_id": "2603.24528",
+      "title": "Cross-Modal Prototype Alignment and Mixing for Training-Free Few-Shot Classification"
+    },
+    {
+      "arxiv_id": "2603.22908",
+      "title": "Adaptive Dual-Teacher Distillation with Subnetwork Rectification for Bridging Semantic Gaps in Black-Box Domain Adaptation"
+    },
+    {
+      "arxiv_id": "2603.21824",
+      "title": "SteelDefectX: A Multi-Form Vision-Language Dataset and Benchmark for Steel Surface Defect Analysis"
+    },
+    {
+      "arxiv_id": "2603.21309",
+      "title": "Test-Time Adaptation via Cache Personalization for Facial Expression Recognition in Videos"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Dstadapter: divided spatial-temporal adapter fine-tuning method for sign language recognition"
+    },
+    {
+      "arxiv_id": "2603.19516",
+      "title": "Gastric-X: A Multimodal Multi-Phase Benchmark Dataset for Advancing Vision-Language Models in Gastric Cancer Analysis"
+    },
+    {
+      "arxiv_id": "2603.18101",
+      "title": "Training-Only Heterogeneous Image-Patch-Text Graph Supervision for Advancing Few-Shot Learning Adapters"
+    },
+    {
+      "arxiv_id": "2603.17655",
+      "title": "Interpretable Cross-Domain Few-Shot Learning with Rectified Target-Domain Local Alignment"
+    },
+    {
+      "arxiv_id": "2603.16653",
+      "title": "HeBA: Heterogeneous Bottleneck Adapters for Robust Vision-Language Models"
+    },
+    {
+      "arxiv_id": "2603.17079",
+      "title": "ACE-LoRA: Graph-Attentive Context Enhancement for Parameter-Efficient Adaptation of Medical Vision-Language Models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Foundation Models for Volumetric Medical Imaging: Opportunities, Challenges, and Future Directions"
+    },
+    {
+      "arxiv_id": "2603.14706",
+      "title": "AdapterTune: Zero-Initialized Low-Rank Adapters for Frozen Vision Transformers"
+    },
+    {
+      "arxiv_id": "2603.12659",
+      "title": "AVION: Aerial Vision-Language Instruction from Offline Teacher to Prompt-Tuned Network"
+    },
+    {
+      "arxiv_id": "2603.11542",
+      "title": "ReHARK: Refined Hybrid Adaptive RBF Kernels for Robust One-Shot Vision-Language Adaptation"
+    },
+    {
+      "arxiv_id": "2603.11211",
+      "title": "A Simple Efficiency Incremental Learning Framework via Vision-Language Model with Nonlinear Multi-Adapters"
+    },
+    {
+      "arxiv_id": null,
+      "title": "EgoFusion: unified semantic and scale-aware prompt fusion for egocentric action recognition"
+    },
+    {
+      "arxiv_id": "2603.09493",
+      "title": "EvoPrompt: Guided Prompt Evolution for Vision-Language Models Adaptation"
+    },
+    {
+      "arxiv_id": "2603.07911",
+      "title": "Beyond Heuristic Prompting: A Concept-Guided Bayesian Framework for Zero-Shot Image Recognition"
+    },
+    {
+      "arxiv_id": "2603.08708",
+      "title": "FVG-PT: Adaptive Foreground View-Guided Prompt Tuning for Vision-Language Models"
+    },
+    {
+      "arxiv_id": "2603.08942",
+      "title": "BiCLIP: Domain Canonicalization via Structured Geometric Transformation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Vision-Language Efficient Tuning for Mitigating Catastrophic Forgetting in Multi-Modal Learning"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Parameter-Efficient Fine-Tuning for Vision-Language Models: The Post-Transformer Evolution"
+    },
+    {
+      "arxiv_id": null,
+      "title": "CoP: Chain of Perception for Referring 3D Instance Segmentation"
+    },
+    {
+      "arxiv_id": "2603.13341",
+      "title": "Mind the Discriminability Trap in Source-Free Cross-domain Few-shot Learning"
+    },
+    {
+      "arxiv_id": null,
+      "title": "R-MMA: Enhancing Vision-Language Models with Recurrent Adapters for Few-Shot and Cross-Domain Generalization"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Zero-Shot Domain Generalisation via Prompt-Driven Feature Refinement"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Model-free Domain Adaptation for Concealed Multimodal Large-Language Models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Parameter-Efficient Fine-Tuning via Meta-Regularizer"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Pcpe: A Small Sample Cross Modal Adaptation Method Based on Visual Prototype Conditional Hint Integration"
+    },
+    {
+      "arxiv_id": null,
+      "title": "HumanGuideNet: Adapter-Based Alignment of Deep Neural Networks with Human Similarity Judgments"
+    },
+    {
+      "arxiv_id": "2603.05235",
+      "title": "Reclaiming Lost Text Layers for Source-Free Cross-Domain Few-Shot Learning"
+    },
+    {
+      "arxiv_id": "2603.04341",
+      "title": "Hold-One-Shot-Out (HOSO) for Validation-Free Few-Shot CLIP Adapters"
+    },
+    {
+      "arxiv_id": null,
+      "title": "InfoMSD: an information-maximization self-distillation framework for parameter-efficient fine-tuning on artwork images"
+    },
+    {
+      "arxiv_id": "2604.27559",
+      "title": "RIHA: Report-Image Hierarchical Alignment for Radiology Report Generation"
+    },
+    {
+      "arxiv_id": "2603.02557",
+      "title": "CAPT: Confusion-Aware Prompt Tuning for Reducing Vision-Language Misalignment"
+    },
+    {
+      "arxiv_id": "2603.03577",
+      "title": "From Local Matches to Global Masks: Template-Guided Instance Detection and Segmentation in Open-World Scenes"
+    },
+    {
+      "arxiv_id": "2603.18598",
+      "title": "Complementary Text-Guided Attention for Zero-Shot Adversarial Robustness"
+    },
+    {
+      "arxiv_id": null,
+      "title": "LADA: Label Disambiguation and Domain-Aware Learning for Domain Generalization"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Fine-Tuning via Linked Domains: A Closed-Form Dual Alignment Mechanism for Transferring Vision-Language Models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Hierarchical vision-language model with comprehensive language description for video anomaly detection"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Fine-grained aesthetic multi-attribute captioning with aligned vision-language representations"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Multimodal knowledge-guided method for power transmission line fault detection using a vision-language model"
+    },
+    {
+      "arxiv_id": null,
+      "title": "PRISM: Pyramidal representation and interaction synergy mechanism for malicious meme detection"
+    },
+    {
+      "arxiv_id": "2603.01111",
+      "title": "DeAR: Fine-Grained VLM Adaptation by Decomposing Attention Head Roles"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A systematic review of vision language models: Comprehensive analysis of architectures, applications, datasets and challenges towards robust multimodal intelligence"
+    },
+    {
+      "arxiv_id": null,
+      "title": "OW3DPCA: Toward Open-World 3-D Point Cloud Analysis"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Textual-visual interaction for enhanced single image deraining using adapter-tuned VLMs"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Multi-modal mutual-guidance conditional prompt learning for vision-language models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "KRCapVLM: Beam-guided knowledge replay for knowledge-rich image captioning using vision-language model"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Multi-faceted contrastive learning with inter-frame difference for traffic video question answering"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Talking with Actionbits—A Part-Enhanced VLM for Action and Interaction Recognition in Animals"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Semantic-aware replay and key knowledge fusion for 3D continual learning"
+    },
+    {
+      "arxiv_id": null,
+      "title": "From insufficient to sufficient: Hierarchical semantic alignment for remote sensing image-text retrieval"
+    },
+    {
+      "arxiv_id": null,
+      "title": "FPS: Frequency prompt synchronization for micro-expression recognition"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Vision–Language Models for Transmission Line Fault Detection: A New Approach for Grid Reliability and Optimization"
+    },
+    {
+      "arxiv_id": "2602.23653",
+      "title": "ProtoDCS: Towards Robust and Efficient Open-Set Test-Time Adaptation for Vision-Language Models"
+    },
+    {
+      "arxiv_id": "2602.22419",
+      "title": "CLIP Is Shortsighted: Paying Attention Beyond the First Sentence"
+    },
+    {
+      "arxiv_id": "2602.20479",
+      "title": "Path-Decoupled Hyperbolic Flow Matching for Few-Shot Adaptation"
+    },
+    {
+      "arxiv_id": "2602.20652",
+      "title": "DANCE: Doubly Adaptive Neighborhood Conformal Estimation"
+    },
+    {
+      "arxiv_id": "2602.20818",
+      "title": "GatedCLIP: Gated Multimodal Fusion for Hateful Memes Detection"
+    },
+    {
+      "arxiv_id": "2602.21397",
+      "title": "MMLoP: Multi-Modal Low-Rank Prompting for Efficient Vision-Language Adaptation"
+    },
+    {
+      "arxiv_id": "2602.20089",
+      "title": "StructXLIP: Enhancing Vision-language Models with Multimodal Structural Cues"
+    },
+    {
+      "arxiv_id": "2602.20409",
+      "title": "CLIPoint3D: Language-Grounded Few-Shot Unsupervised 3D Point Cloud Domain Adaptation"
+    },
+    {
+      "arxiv_id": "2602.19198",
+      "title": "Prompt Tuning for CLIP on the Pretrained Manifold"
+    },
+    {
+      "arxiv_id": "2602.18888",
+      "title": "Dual-Kernel Adapter: Expanding Spatial Horizons for Data-Constrained Medical Image Analysis"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Not All Attention is Needed: Parameter and Computation Efficient Tuning for Multi-modal Large Language Models via Effective Attention Skipping"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Multi-Modal Primitive Retrieval for Compositional Zero-Shot Learning"
+    },
+    {
+      "arxiv_id": "2602.18652",
+      "title": "PolyFrame at MWE-2026 AdMIRe 2: When Words Are Not Enough: Multimodal Idiom Disambiguation"
+    },
+    {
+      "arxiv_id": "2602.17395",
+      "title": "SpectralGCD: Spectral Concept Selection and Cross-modal Representation Learning for Generalized Category Discovery"
+    },
+    {
+      "arxiv_id": "2602.16590",
+      "title": "A Contrastive Learning Framework Empowered by Attention-based Feature Adaptation for Street-View Image Classification"
+    },
+    {
+      "arxiv_id": null,
+      "title": "VL-HTR: Learning Human–Target Representation From Vision–Language Model"
+    },
+    {
+      "arxiv_id": "2602.14127",
+      "title": "MUKA: Multi Kernel Audio Adaptation Of Audio-Language Models"
+    },
+    {
+      "arxiv_id": "2602.13944",
+      "title": "Fusing Pixels and Genes: Spatially-Aware Learning in Computational Pathology"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Multi-to-uni modal knowledge transfer pre-training for molecular representation learning"
+    },
+    {
+      "arxiv_id": null,
+      "title": "SeGDP: Source-free Cross-domain Few-shot Learning via Semantic Guided Diversity Prompting"
+    },
+    {
+      "arxiv_id": "2602.13067",
+      "title": "SIEFormer: Spectral-Interpretable and -Enhanced Transformer for Generalized Category Discovery"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Boosting Learning Efficiency in Few-Shot Tasks With Layer-Adaptive PID Control"
+    },
+    {
+      "arxiv_id": "2602.09979",
+      "title": "Learning to Detect Baked Goods with Limited Supervision"
+    },
+    {
+      "arxiv_id": "2602.08730",
+      "title": "Closing the Confusion Loop: CLIP-Guided Alignment for Source-Free Domain Adaptation"
+    },
+    {
+      "arxiv_id": "2602.04337",
+      "title": "Fine-tuning Pre-trained Vision-Language Models in a Human-Annotation-Free Manner"
+    },
+    {
+      "arxiv_id": "2602.02977",
+      "title": "Aligning Forest and Trees in Images&Long Captions for Visually Grounded Understanding"
+    },
+    {
+      "arxiv_id": "2602.02841",
+      "title": "Semantics-Aware Generative Latent Data Augmentation for Learning in Low-Resource Domains"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Modeling Cross-Modal Semantic Transformations From Coarse to Fine in CLIP"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Prompt-affinity multi-modal class centroids for unsupervised domain adaption"
+    },
+    {
+      "arxiv_id": null,
+      "title": "From task-specific to foundation models: A paradigm shift in medical vision-language analysis"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A zero-shot anomaly detection network with patch-augmented prompts and test-time adaptation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Collection-driven and resolution-aware prompt learning for few-shot remote sensing scene classification"
+    },
+    {
+      "arxiv_id": null,
+      "title": "AnomalyLVM:Vision-language models for zero-shot anomaly detection"
+    },
+    {
+      "arxiv_id": null,
+      "title": "SDC-Net: Semi-supervised breast ultrasound lesion segmentation via semantic decoupling"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Improving Zero-Shot Generalization for CLIP With Prompt Ensemble Self-Distillation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Cross-modal mapping: Mitigating the modality gap for few-shot classification"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Efficient Pre-Trained Semantics Refinement for Video Temporal Grounding"
+    },
+    {
+      "arxiv_id": null,
+      "title": "TCFF-Adapter: Text-Driven Adaption of CLIP for Few-Shot Image Classification"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Uncertainty and diversity based selection for active learning in vision-language models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "RAC : Few-shot fruit recognition through CLIP-based ambiguity reduction"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Development of a Text-Guided Annotation System for Object Segmentation Training Data in Crop Images Based on the Segmentation Anything Model 3"
+    },
+    {
+      "arxiv_id": "2601.22573",
+      "title": "DELNet: Continuous All-in-One Weather Removal via Dynamic Expert Library"
+    },
+    {
+      "arxiv_id": "2602.00340",
+      "title": "Bridging the Semantic Chasm: Synergistic Conceptual Anchoring for Generalized Few-Shot and Zero-Shot OOD Perception"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Bilateral Transformation of Biased Pseudo-Labels under Distribution Inconsistency"
+    },
+    {
+      "arxiv_id": "2601.21675",
+      "title": "Rethinking Fusion: Disentangled Learning of Shared and Modality-Specific Information for Stance Detection"
+    },
+    {
+      "arxiv_id": "2601.21426",
+      "title": "MultiModal Fine-tuning with Synthetic Captions"
+    },
+    {
+      "arxiv_id": "2601.20526",
+      "title": "IOTA: Corrective Knowledge-Guided Prompt Learning via Black-White Box Framework"
+    },
+    {
+      "arxiv_id": "2601.20224",
+      "title": "Feature Projection Learning for Better Vision-Language Reasoning"
+    },
+    {
+      "arxiv_id": null,
+      "title": "AttriPrompt: Class Attribute-Aware Prompt Tuning for Vision-Language Model"
+    },
+    {
+      "arxiv_id": "2601.18190",
+      "title": "Multi-Perspective Subimage CLIP with Keyword Guidance for Remote Sensing Image-Text Retrieval"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Zero-shot Scene Classification based on VLM"
+    },
+    {
+      "arxiv_id": "2602.02513",
+      "title": "Learning ORDER-Aware Multimodal Representations for Composite Materials Design"
+    },
+    {
+      "arxiv_id": "2601.11322",
+      "title": "Enhancing Vision Language Models With Logic Reasoning for Situational Awareness"
+    },
+    {
+      "arxiv_id": "2601.10497",
+      "title": "MERGETUNE: Continued fine-tuning of vision-language models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Ladder-side mixture of experts adapters for bronze inscription recognition"
+    },
+    {
+      "arxiv_id": "2601.09661",
+      "title": "LiteEmbed: Adapting CLIP to Rare Classes"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Hierarchical prompt learning for vision-language models with enhanced generalization"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Goal-Guided Prompting With Adaptive Modality Selection for Efficient Assembly Activity Anticipation in Egocentric Videos"
+    },
+    {
+      "arxiv_id": null,
+      "title": "BayesAdapter: Enhanced Uncertainty Estimation in CLIP Few-Shot Adaptation"
+    },
+    {
+      "arxiv_id": "2601.04614",
+      "title": "HyperAlign: Hyperbolic Entailment Cones for Adaptive Text-to-Image Alignment Assessment"
+    },
+    {
+      "arxiv_id": "2601.20867",
+      "title": "Generalizable Prompt Tuning for Audio-Language Models via Semantic Expansion"
+    },
+    {
+      "arxiv_id": null,
+      "title": "HISF: Hierarchical Interactive Semantic Fusion for Multimodal Prompt Learning"
+    },
+    {
+      "arxiv_id": "2601.00993",
+      "title": "WildIng: A Wildlife Image Invariant Representation Model for Geographical Domain Shift"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Leveraging pretrained vision‐language model for enhanced breast cancer diagnosis with multi‐view mammography"
+    },
+    {
+      "arxiv_id": null,
+      "title": "RotCLIP: Tuning CLIP with visual adapter and textual prompts for rotation robust remote sensing image classification"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Enhancing aero-engine blade few-shot anomaly detection with visual-language multi-modal models under domain shift conditions"
+    },
+    {
+      "arxiv_id": null,
+      "title": "AdaAlign: A unified solution for traditional and modern zero-shot sketch-based image retrieval"
+    },
+    {
+      "arxiv_id": null,
+      "title": "HDFLStyler: Hierarchical domain-invariant feature learning for source-free domain generalization"
+    },
+    {
+      "arxiv_id": null,
+      "title": "AT-adapter: Leveraging attribute knowledge of CLIP for few-shot classification"
+    },
+    {
+      "arxiv_id": null,
+      "title": "AGPL-KEM : Attribute-guided prompt learning with knowledge experts mixture for few-shot remote sensing image classification"
+    },
+    {
+      "arxiv_id": null,
+      "title": "PromptMix: LLM-aided prompt learning for generalizing vision-language models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "MIL-Adapter: Coupling multiple instance learning and vision-language adapters for few-shot slide-level classification"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Multi-Modal Few-Shot Semantic Segmentation Based on Triple Attention Mechanism and Hierarchical Decoding Transformer"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Emotion-aware adaptation of CLIP model for facial expression recognition"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Zero-Shot Human-Object Interaction Detection with CLIP"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Toward Unified Expertise: Learning a Single Vision Model From Diverse Perception"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Alignment-aware fine-tuning of vision-language models for out-of-distribution generalization"
+    },
+    {
+      "arxiv_id": "2512.17730",
+      "title": "AdaptPrompt: Parameter-Efficient Adaptation of VLMs for Generalizable Deepfake Detection"
+    },
+    {
+      "arxiv_id": "2512.17313",
+      "title": "Auxiliary Descriptive Knowledge for Few-Shot Adaptation of Vision-Language Model"
+    },
+    {
+      "arxiv_id": "2512.15715",
+      "title": "In Pursuit of Pixel Supervision for Visual Pre-training"
+    },
+    {
+      "arxiv_id": "2512.14141",
+      "title": "TorchTraceAP: A New Benchmark Dataset for Detecting Performance Anti-Patterns in Computer Vision Models"
+    },
+    {
+      "arxiv_id": "2512.13855",
+      "title": "Improvise, Adapt, Overcome — Telescopic Adapters for Efficient Fine-tuning of Vision Language Models in Medical Imaging"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Few-Shot Defect Recognition for New Energy Equipment via Multimodal Harmony"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Medical Knowledge-Guided CLIP Adaptation for Fundus Image Diagnosis"
+    },
+    {
+      "arxiv_id": null,
+      "title": "CLINav-GKD: Vision-Language Latent Hyperbolic Geometric Knowledge Distillation for Real-World 6-DOF Echocardiography Probe Navigation*"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Adaptive Progressive Fine-Tuning of VLMs for Long-Tailed Multimodal Retrieval"
+    },
+    {
+      "arxiv_id": "2512.12610",
+      "title": "Patch-wise Retrieval: A Bag of Practical Techniques for Instance-level Matching"
+    },
+    {
+      "arxiv_id": "2512.12498",
+      "title": "Advancing Cache-Based Few-Shot Classification via Patch-Driven Relational Gated Graph Attention"
+    },
+    {
+      "arxiv_id": "2512.12268",
+      "title": "MetaTPT: Meta Test-time Prompt Tuning for Vision-Language Models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Spatio-Temporal Disentanglement and Constrained Self-Attention for Multi-Modal Deception Detection"
+    },
+    {
+      "arxiv_id": "2512.10244",
+      "title": "Solving Semi-Supervised Few-Shot Learning from an Auto-Annotation Perspective"
+    },
+    {
+      "arxiv_id": "2512.10262",
+      "title": "VLM-NCD:Novel Class Discovery with Vision-Based Large Language Models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Attention-guided hybrid learning for accurate defect classification in manufacturing environments"
+    },
+    {
+      "arxiv_id": "2512.15748",
+      "title": "Surely Large Multimodal Models (Don't) Excel in Visual Species Recognition?"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Large Visual Language Models Continual Learning With Dynamic Mixture of Experts"
+    },
+    {
+      "arxiv_id": "2603.04346",
+      "title": "Underrepresented in Foundation Model Pretraining Data? A One-Shot Probe"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Self-Adaptive Vision-Language Tracking With Context Prompting"
+    },
+    {
+      "arxiv_id": "2512.06811",
+      "title": "RMAdapter: Reconstruction-based Multi-Modal Adapter for Vision-Language Models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Prefix-Guided Adaptation of Pretrained Segmenter for RGB-D Indoor Panoptic Segmentation"
+    },
+    {
+      "arxiv_id": "2512.04305",
+      "title": "How (Mis)calibrated is Your Federated CLIP and What To Do About It?"
+    },
+    {
+      "arxiv_id": null,
+      "title": "FedFA: Efficient federated large language models with feature adapters"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Text augmentation for vision: Modality-preference aware few-shot learning"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Open-vocabulary object detection via Neighboring Region Attention Alignment"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Enhancing multi-label zero-shot learning with dual-contrastive image-text alignment"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Predicting Axillary Lymph Node Metastasis of Breast Cancer Using Joint Pre-Trained Fine-Tuning and Contrastive Learning for Contrast-Enhanced Ultrasound"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Toward Open-World Remote Sensing Imagery Interpretation: Past, present, and future"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Poe2CLP: phrase-level attention and cross-modal semantic alignment for poem generate chinese landscape paintings"
+    },
+    {
+      "arxiv_id": null,
+      "title": "RadQwen: A Vision-Language Adaptation for Radiological Image Understanding"
+    },
+    {
+      "arxiv_id": "2512.00597",
+      "title": "Scaling Down to Scale Up: Towards Operationally-Efficient and Deployable Clinical Models via Cross-Modal Low-Rank Adaptation for Medical Vision-Language Models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Exploring Universal Domain Adaptation with CLIP Models: A Calibration Method"
+    },
+    {
+      "arxiv_id": "2511.22664",
+      "title": "VaMP: Variational Multi-Modal Prompt Learning for Vision-Language Models"
+    },
+    {
+      "arxiv_id": "2511.21188",
+      "title": "AnchorOPT: Towards Optimizing Dynamic Anchors for Adaptive Prompt Learning"
+    },
+    {
+      "arxiv_id": "2511.20732",
+      "title": "Prompt-Aware Adaptive Elastic Weight Consolidation for Continual Learning in Medical Vision-Language Models"
+    },
+    {
+      "arxiv_id": "2511.20274",
+      "title": "ScenarioCLIP: Pretrained Transferable Visual Language Models and Action-Genome Dataset for Natural Scene Analysis"
+    },
+    {
+      "arxiv_id": "2511.20056",
+      "title": "Online-PVLM: Advancing Personalized VLMs with Online Concept Learning"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Leveraging Integrated Knowledge for Enhanced Multimodal Lung Cancer Prediction"
+    },
+    {
+      "arxiv_id": "2511.18396",
+      "title": "Exploring Weak-to-Strong Generalization for CLIP-based Classification"
+    },
+    {
+      "arxiv_id": "2511.17362",
+      "title": "ATAC: Augmentation-Based Test-Time Adversarial Correction for CLIP"
+    },
+    {
+      "arxiv_id": "2511.17339",
+      "title": "ReBaPL: Repulsive Bayesian Prompt Learning"
+    },
+    {
+      "arxiv_id": null,
+      "title": "CausalProto-CLIP:Fine-Grained and Interpretable Vision-Language Modeling via Causal Prototypes"
+    },
+    {
+      "arxiv_id": null,
+      "title": "XA-CLIP: Towards Zero-Shot Threat Classification via Cross-Modal Alignment in X-ray Security Imaging"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Synergy of Sight and Semantics: Holistic Visual Understanding With CLIP"
+    },
+    {
+      "arxiv_id": "2511.14229",
+      "title": "EBind: a practical approach to space binding"
+    },
+    {
+      "arxiv_id": "2511.17618",
+      "title": "Foundational Question Generation for Video Question Answering via an Embedding-Integrated Approach"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Toward Generalizable Prompt Learning via Multi-Regularization Guided Knowledge Distillation"
+    },
+    {
+      "arxiv_id": "2511.11984",
+      "title": "From Classification to Cross-Modal Understanding: Leveraging Vision-Language Models for Fine-Grained Renal Pathology"
+    },
+    {
+      "arxiv_id": "2511.09540",
+      "title": "vMFCoOp: Towards Equilibrium on a Unified Hyperspherical Manifold for Prompting Biomedical VLMs"
+    },
+    {
+      "arxiv_id": "2511.08978",
+      "title": "Spatio-Temporal Data Enhanced Vision-Language Model for Traffic Scene Understanding"
+    },
+    {
+      "arxiv_id": "2511.09809",
+      "title": "Test-Time Spectrum-Aware Latent Steering for Zero-Shot Generalization in Vision-Language Models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Deepfake Image Detection: A Universal Approach via Vision-Language Models"
+    },
+    {
+      "arxiv_id": "2511.07929",
+      "title": "Federated CLIP for Resource-Efficient Heterogeneous Medical Image Classification"
+    },
+    {
+      "arxiv_id": "2511.04711",
+      "title": "SWAP: Towards Copyright Auditing of Soft Prompts via Sequential Watermarking"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Learning to align across frames: a prompt-aware framework for video action recognition"
+    },
+    {
+      "arxiv_id": "2511.01694",
+      "title": "Bayesian Natural Gradient Fine-Tuning of CLIP Models via Kalman Filtering"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Twin-Space Decoupling and Interaction for Efficient Vision-Language Transfer"
+    },
+    {
+      "arxiv_id": null,
+      "title": "DPD: A Dual Prompt Distillation Method for Vision-Language Model"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Efficient motion-centric CLIP for compressed video action recognition"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Zero-shot egocentric action recognition via chain-of-imagination prompts and inertial strengthening adaptor"
+    },
+    {
+      "arxiv_id": null,
+      "title": "MKGPL: graph prompt learning with multi-view knowledge for few-shot recognition"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Enhanced Dual-Pattern Matching With Vision-Language Representation for Out-of-Distribution Detection"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Cross-Modal Contrastive Learning for Net Load Prediction Based on Public Weather Forecasts"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Agent-Based Control Prompt Tuning for Video-Text Retrieval"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Boundary-Aware Sentence-Gloss Alignment With Semantic Similarity Measurement for Continuous Sign Language Recognition"
+    },
+    {
+      "arxiv_id": "2511.00523",
+      "title": "SegDebias: Test-Time Bias Mitigation for ViT-Based CLIP via Segmentation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "MDIF: A multimodal dynamic inference framework for traffic video question answering"
+    },
+    {
+      "arxiv_id": null,
+      "title": "CLIP-UG: CLIP-Driven Vision-Language Model for UAV-View Geo-Localization"
+    },
+    {
+      "arxiv_id": "2510.27359",
+      "title": "GD-FPS: Growth-Driven Feedforward Parameter Selection for Efficient Fine-Tuning"
+    },
+    {
+      "arxiv_id": "2510.26311",
+      "title": "Model Inversion with Layer-Specific Modeling and Alignment for Data-Free Continual Learning"
+    },
+    {
+      "arxiv_id": "2510.25303",
+      "title": "Teaching Sarcasm: Few-Shot Multimodal Sarcasm Detection via Distillation to a Parameter-Efficient Student"
+    },
+    {
+      "arxiv_id": "2510.25146",
+      "title": "EA3D: Online Open-World 3D Object Extraction from Streaming Videos"
+    },
+    {
+      "arxiv_id": "2510.23894",
+      "title": "Improving Visual Discriminability of CLIP for Training-Free Open-Vocabulary Semantic Segmentation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "CIA: Class- and Instance-aware Adaptation for Vision-Language Models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "PAF: Prototype Adaptive Fusion for Test-Time Adaptation of Vision-Language Models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "MeDKCoOp: Dual Knowledge-guided Graph Prompt Learning for Biomedical Vision-Language Models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "BAC-GCN: Background-Aware CLIP-GCN Framework for Unsupervised Multi-Label Classification"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Seeing the Overlooked: Bio-Visual Inspired Weak Saliency Feedback Transformer for Person Re-identification"
+    },
+    {
+      "arxiv_id": null,
+      "title": "TPDepth: Leveraging Text Prompts with ControlNet to Boost Diffusion-based Depth Estimation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Chain-of-Thought Guided Semantic Debiasing for Low-Shot Vision-Language Tasks"
+    },
+    {
+      "arxiv_id": null,
+      "title": "CLIP-based Chest X-ray Anomaly Detection"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Federated Semantic Synergistic Alignment for Food Image Classification under Class Imbalance"
+    },
+    {
+      "arxiv_id": "2510.20477",
+      "title": "Bi-CoG: Bi-Consistency-Guided Self-Training for Vision-Language Models"
+    },
+    {
+      "arxiv_id": "2510.19802",
+      "title": "Class-Aware Prototype Learning with Negative Contrast for Test-Time Adaptation of Vision-Language Models"
+    },
+    {
+      "arxiv_id": "2510.20860",
+      "title": "Data-Centric Lessons To Improve Speech-Language Pretraining"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Mitigating Shortcut Learning in Online Action Detection and Anticipation via Cross-Modal Semantic Alignment"
+    },
+    {
+      "arxiv_id": "2510.19155",
+      "title": "VeFA: Vector-Based Feature Space Adaptation for Robust Model Fine-Tuning"
+    },
+    {
+      "arxiv_id": "2510.21808",
+      "title": "Semantic Relation-Enhanced CLIP Adapter for Domain Adaptive Zero-Shot Learning"
+    },
+    {
+      "arxiv_id": null,
+      "title": "SAMPLE: Semantic Alignment through Temporal-Adaptive Multimodal Prompt Learning for Event-Based Open-Vocabulary Action Recognition"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Hierarchical Divide-And-Conquer Grouping for Classification Adaptation of Pre-Trained Models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Efficient Fine-Tuning of Large Models Via Nested Low-Rank Adaptation"
+    },
+    {
+      "arxiv_id": "2511.08626",
+      "title": "SAMora: Enhancing SAM through Hierarchical Self-Supervised Pre-Training for Medical Images"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Towards Effective Foundation Model Adaptation for Extreme Cross-Domain Few-Shot Learning"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Intermediate Connectors and Geometric Priors for Language-Guided Affordance Segmentation on Unseen Object Categories"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Unknown Text Learning for Clip-Based Few-Shot Open-Set Recognition"
+    },
+    {
+      "arxiv_id": null,
+      "title": "ReMP-AD: Retrieval-Enhanced Multi-Modal Prompt Fusion for Few-Shot Industrial Visual Anomaly Detection"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Target Bias Is All You Need: Zero-Shot Debiasing of Vision-Language Models With Bias Corpus"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Robustifying Zero-Shot Vision Language Models by Subspaces Alignment"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Test-Time Retrieval-Augmented Adaptation for Vision-Language Models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Hierarchical Variational Test-Time Prompt Generation for Zero-Shot Generalization"
+    },
+    {
+      "arxiv_id": null,
+      "title": "AIRA: Activation-Informed Low-Rank Adaptation for Large Models"
+    },
+    {
+      "arxiv_id": "2510.15595",
+      "title": "FlexiReID: Adaptive Mixture of Expert for Multi-Modal Person Re-Identification"
+    },
+    {
+      "arxiv_id": "2510.14543",
+      "title": "Exploring Cross-Modal Flows for Few-Shot Learning"
+    },
+    {
+      "arxiv_id": "2510.13219",
+      "title": "Prompt-based Adaptation in Large-scale Vision Models: A Survey"
+    },
+    {
+      "arxiv_id": "2510.13808",
+      "title": "VisCoP: Visual Probing for Video Domain Adaptation of Vision Language Models"
+    },
+    {
+      "arxiv_id": "2510.13131",
+      "title": "OS-HGAdapter: Open Semantic Hypergraph Adapter for Large Language Models Assisted Entropy-Enhanced Image-Text Alignment"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Causal Interventional Prompt Tuning for Few-Shot Out-of-Distribution Generalization"
+    },
+    {
+      "arxiv_id": "2510.11296",
+      "title": "ΔEnergy: Optimizing Energy Change During Vision-Language Alignment Improves both OOD Detection and OOD Generalization"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Few-shot Fine-grained Image Classification with Interpretable Prompt Learning through Distribution Alignment"
+    },
+    {
+      "arxiv_id": "2510.08278",
+      "title": "A Multimodal Depth-Aware Method For Embodied Reference Understanding"
+    },
+    {
+      "arxiv_id": "2510.08659",
+      "title": "Provably Robust Adaptation for Language-Empowered Foundation Models"
+    },
+    {
+      "arxiv_id": "2510.07135",
+      "title": "Few-Shot Adaptation Benchmark for Remote Sensing Vision-Language Models"
+    },
+    {
+      "arxiv_id": "2510.05839",
+      "title": "Towards Robust and Realible Multimodal Misinformation Recognition with Incomplete Modality"
+    },
+    {
+      "arxiv_id": "2510.04564",
+      "title": "Conditional Representation Learning for Customized Tasks"
+    },
+    {
+      "arxiv_id": "2510.05411",
+      "title": "Personalizing Retrieval Using Joint Embeddings; or “the Return of Fluffy”"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Performance Evaluation of the CLIP Model in Classification Tasks"
+    },
+    {
+      "arxiv_id": null,
+      "title": "C2BA: Cross-Domain Consistency and Bidirectional Alignment for Cross-Modal Domain-Incremental Learning"
+    },
+    {
+      "arxiv_id": null,
+      "title": "PiG-Adapter: Lightweight Knowledge Graph Adaptation for Few-Shot Vision-Language Tuning"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Cross-Lingual Multimodal Event Extraction: A Unified Framework for Parameter-Efficient Fine-Tuning"
+    },
+    {
+      "arxiv_id": "2510.02750",
+      "title": "Bayesian Test-time Adaptation for Object Recognition and Detection with Vision-language Models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Scaling down, Powering up: A Survey on the Advancements of Small Vision-Language Models"
+    },
+    {
+      "arxiv_id": "2510.09867",
+      "title": "Cluster-Aware Prompt Ensemble Learning for Few-Shot Vision-Language Model Adaptation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "OV-KFA: Open-vocabulary object detection via key feature alignment"
+    },
+    {
+      "arxiv_id": null,
+      "title": "EHIN: Early-aware hierarchical interaction network for weakly-supervised referring image segmentation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Text enhanced curriculum supervised contrastive learning for food image recognition"
+    },
+    {
+      "arxiv_id": "2511.03367",
+      "title": "Decoupling Augmentation Bias in Prompt Learning for Vision-Language Models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "FastEdit: fast text-guided single-image editing via semantic-aware diffusion fine-tuning"
+    },
+    {
+      "arxiv_id": null,
+      "title": "SCAT: Shared-convolution adaptation tuning"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Pro-CLIP: Residual learning and object-agnostic prompts for few-shot anomaly detection"
+    },
+    {
+      "arxiv_id": null,
+      "title": "DTL: Parameter- and Memory-Efficient Disentangled Vision Learning"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Language-guided Alignment and Distillation for Source-free Domain Adaptation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Transfer large models to crop pest recognition - A cross-modal unified framework for parameters efficient fine-tuning"
+    },
+    {
+      "arxiv_id": null,
+      "title": "“Phenology description is all you need!” mapping unknown crop types with remote sensing time-series and LLM generated text alignment"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Can a machine talk the talk though not climb the rock? A Turing Test on rock climbing"
+    },
+    {
+      "arxiv_id": null,
+      "title": "FLAIR: Federated Learning for Augmented Industrial Retrieval"
+    },
+    {
+      "arxiv_id": null,
+      "title": "AAPAR: CLIP-Based Adaptation and Alignment for Pedestrian Attribute Recognition"
+    },
+    {
+      "arxiv_id": null,
+      "title": "DMotion: Diverse Modalities Alignment Enhanced Motion Prediction for Autonomous Driving"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Feasibility Study of CLIP-Based Key Slice Selection in CT Images and Performance Enhancement via Lesion- and Organ-Aware Fine-Tuning"
+    },
+    {
+      "arxiv_id": null,
+      "title": "ProgCoPL: Progressive co-prompt learning for vision-language models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "CHARM: Cross-modal hierarchical attention for recognizing malicious memes"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Multimodal prompt learning with selective feature fusion: towards robust cross-modal alignment"
+    },
+    {
+      "arxiv_id": "2509.24681",
+      "title": "Classifier-Centric Adaptive Framework for Open-Vocabulary Camouflaged Object Segmentation"
+    },
+    {
+      "arxiv_id": "2509.24192",
+      "title": "Talk in Pieces, See in Whole: Disentangling and Hierarchical Aggregating Representations for Language-based Object Detection"
+    },
+    {
+      "arxiv_id": "2509.23781",
+      "title": "GroupCoOp: Group-robust Fine-tuning via Group Prompt Learning"
+    },
+    {
+      "arxiv_id": "2509.23592",
+      "title": "Toward a Holistic Approach to Continual Model Merging"
+    },
+    {
+      "arxiv_id": "2509.23027",
+      "title": "Understanding Catastrophic Interference On the Identifibility of Latent Representations"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Exploiting Image-Text Local Matching and Global Correlation for Zero-Shot Medical Diagnosis"
+    },
+    {
+      "arxiv_id": null,
+      "title": "MineAdapter: Self-Supervised Learning for Multi-Task Perception in Surface Mines"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Video action recognition meets vision-language models exploring human factors in scene interaction: a review"
+    },
+    {
+      "arxiv_id": "2509.18938",
+      "title": "No Labels Needed: Zero-Shot Image Classification with Collaborative Self-Learning"
+    },
+    {
+      "arxiv_id": "2509.18733",
+      "title": "Knowledge Transfer from Interaction Learning"
+    },
+    {
+      "arxiv_id": "2509.18552",
+      "title": "Global Minimizers of Sigmoid Contrastive Loss"
+    },
+    {
+      "arxiv_id": "2509.17074",
+      "title": "Informative Text-Image Alignment for Visual Affordance Learning with Foundation Models"
+    },
+    {
+      "arxiv_id": "2509.17598",
+      "title": "COLA: Context-Aware Language-Driven Test-Time Adaptation"
+    },
+    {
+      "arxiv_id": "2509.15225",
+      "title": "Lost in Translation? Vocabulary Alignment for Source-Free Adaptation in Open-Vocabulary Semantic Segmentation"
+    },
+    {
+      "arxiv_id": "2509.15330",
+      "title": "CoDoL: Conditional Domain Prompt Learning for Out-of-Distribution Generalization"
+    },
+    {
+      "arxiv_id": "2509.13375",
+      "title": "An Empirical Analysis of VLM-based OOD Detection: Mechanisms, Advantages, and Sensitivity"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Fine-Tuning CLIP Models with Convolutional Features for Medical Anomaly Detection"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Knowledge-Augmented Asymmetric Vision-Language Foundation Model for Remote Sensing Image-Text Retrieval"
+    },
+    {
+      "arxiv_id": "2509.08489",
+      "title": "Prompt-Driven Image Analysis with Multimodal Generative AI: Detection, Segmentation, Inpainting, and Interpretation"
+    },
+    {
+      "arxiv_id": "2509.08715",
+      "title": "BcQLM: Efficient Vision-Language Understanding with Distilled Q-Gated Cross-Modal Fusion"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Automated Configuration of Redstone Circuits in Minecraft Using a Multimodal Model"
+    },
+    {
+      "arxiv_id": "2509.07613",
+      "title": "Data-Efficient Fine-Tuning of Vision-Language Models for Diagnosis of Alzheimer's Disease"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Enhancing the Interpretation of Skin Lesion Diagnosis: Concept Adaptive Fine-Tuning of Vision-Language Models"
+    },
+    {
+      "arxiv_id": "2509.05949",
+      "title": "AttriPrompt: Dynamic Prompt Composition Learning for CLIP"
+    },
+    {
+      "arxiv_id": "2509.03895",
+      "title": "Attn-Adapter: Attention Is All You Need for Online Few-shot Learner of Vision-Language Model"
+    },
+    {
+      "arxiv_id": "2509.03740",
+      "title": "CLIP-SVD: Efficient and Interpretable Vision-Language Adaptation via Singular Values"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Few-shot action recognition with temporal feature enhancement in fine-tuning"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A triplet dictionary-driven learning and uncertainty-aware fusion for remote sensing image-text retrieval"
+    },
+    {
+      "arxiv_id": null,
+      "title": "CA-VAD: Caption Aware Video Anomaly Detection in surveillance videos"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Balancing Invariant and Specific Knowledge for Domain Generalization with Online Knowledge Distillation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A Deep Cross-modal Prompt Learning Network for Artificial Intelligence Generated Image Quality Assessment"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Mitigating forgetting in the adaptation of CLIP for few-shot classification"
+    },
+    {
+      "arxiv_id": null,
+      "title": "On Modulating Motion-Aware Visual-Language Representation for Few-Shot Action Recognition"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Vision-Language Adaptive Clustering and Meta-Adaptation for Unsupervised Few-Shot Action Recognition"
+    },
+    {
+      "arxiv_id": null,
+      "title": "VLF-SAR: A Novel Vision-Language Framework for Few-Shot SAR Target Recognition"
+    },
+    {
+      "arxiv_id": null,
+      "title": "ThinGPT: describing sedimentary rock thin section images with a multimodal large language model"
+    },
+    {
+      "arxiv_id": null,
+      "title": "MCD-CLIP: Multi-view Chest Disease Diagnosis with Disentangled CLIP"
+    },
+    {
+      "arxiv_id": "2509.00305",
+      "title": "Language-Aware Information Maximization for Transductive Few-Shot CLIP"
+    },
+    {
+      "arxiv_id": "2509.00351",
+      "title": "Target-Oriented Single Domain Generalization"
+    },
+    {
+      "arxiv_id": "2508.21769",
+      "title": "Domain Generalization in-the-Wild: Disentangling Classification from Domain-Aware Representations"
+    },
+    {
+      "arxiv_id": "2508.18693",
+      "title": "Feature-Space Planes Searcher: A Universal Domain Adaptation Framework for Interpretability and Computational Efficiency"
+    },
+    {
+      "arxiv_id": null,
+      "title": "You Can Only Tune Normalization: A Simple and Effective Approach to Parameter-Efficient Fine-Tuning"
+    },
+    {
+      "arxiv_id": null,
+      "title": "From Fragment to One Piece: A Review on AI-Driven Graphic Design"
+    },
+    {
+      "arxiv_id": "2508.15960",
+      "title": "Glo‑VLMs: leveraging vision-language models for fine‑grained diseased glomerulus classification"
+    },
+    {
+      "arxiv_id": "2508.15568",
+      "title": "Backpropagation-Free Test-Time Adaptation via Probabilistic Gaussian Alignment"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Boost SAM for Object Detection with Single Point Supervision"
+    },
+    {
+      "arxiv_id": "2508.13518",
+      "title": "Calibrating Biased Distribution in VFM-Derived Latent Space via Cross-Domain Geometric Consistency"
+    },
+    {
+      "arxiv_id": "2508.12861",
+      "title": "Cross-Domain Few-Shot Learning via Multi-View Collaborative Optimization with Vision-Language Models"
+    },
+    {
+      "arxiv_id": "2508.13387",
+      "title": "SPANER: Shared Prompt Aligner for Multimodal Semantic Representation"
+    },
+    {
+      "arxiv_id": "2508.12877",
+      "title": "Preserve and Sculpt: Manifold-Aligned Fine-tuning of Vision-Language Models for Few-Shot Learning"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Cross-Modal Mixup Enhance Foundation Model Adaptation for Few-Shot Learning"
+    },
+    {
+      "arxiv_id": "2508.11870",
+      "title": "AdaRing: Towards Ultra-Light Vision-Language Adaptation via Cross-Layer Tensor Ring Decomposition"
+    },
+    {
+      "arxiv_id": "2508.11262",
+      "title": "Vision-Language Models display a strong gender bias"
+    },
+    {
+      "arxiv_id": "2508.09446",
+      "title": "MPT: Motion Prompt Tuning for Micro-Expression Recognition"
+    },
+    {
+      "arxiv_id": "2508.08644",
+      "title": "AME: Aligned Manifold Entropy for Robust Vision-Language Distillation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "MoE-Adapters++: Toward More Efficient Continual Learning of Vision-Language Models Via Dynamic Mixture-of-Experts Adapters"
+    },
+    {
+      "arxiv_id": "2508.07738",
+      "title": "Separation and Collaboration: Two-Level Routing Grouped Mixture-of-Experts for Multi-Domain Continual Learning"
+    },
+    {
+      "arxiv_id": "2508.07835",
+      "title": "Effortless Vision-Language Model Specialization in Histopathology without Annotation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "EIM: An effective solution for improving multi-modal large language models"
+    },
+    {
+      "arxiv_id": "2508.06092",
+      "title": "Q-CLIP: Unleashing the Power of Vision-Language Models for Video Quality Assessment through Unified Cross-Modal Adaptation"
+    },
+    {
+      "arxiv_id": "2508.11673",
+      "title": "Contrastive Regularization over LoRA for Multimodal Biomedical Image Incremental Learning"
+    },
+    {
+      "arxiv_id": "2508.04942",
+      "title": "Accelerating Conditional Prompt Learning via Masked Image Modeling for Vision-Language Models"
+    },
+    {
+      "arxiv_id": "2508.05547",
+      "title": "Adapting Vision-Language Models Without Labels: A Comprehensive Survey"
+    },
+    {
+      "arxiv_id": "2508.04987",
+      "title": "Unified Modality Separation: A Vision-Language Framework for Unsupervised Domain Adaptation"
+    },
+    {
+      "arxiv_id": "2508.05898",
+      "title": "ETTA: Efficient Test-Time Adaptation for Vision-Language Models through Dynamic Embedding Updates"
+    },
+    {
+      "arxiv_id": "2508.04028",
+      "title": "Dual Prompt Learning for Adapting Vision-Language Models to Downstream Image-Text Retrieval"
+    },
+    {
+      "arxiv_id": "2508.04469",
+      "title": "FrEVL: Leveraging Frozen Pretrained Embeddings for Efficient Vision-Language Understanding"
+    },
+    {
+      "arxiv_id": "2508.04136",
+      "title": "UniFGVC: Universal Training-Free Few-Shot Fine-Grained Vision Classification via Attribute-Aware Multimodal Retrieval"
+    },
+    {
+      "arxiv_id": "2508.04677",
+      "title": "Robust Prompt Tuning for Vision-Language Models with Mild Semantic Noise"
+    },
+    {
+      "arxiv_id": "2508.03102",
+      "title": "Causal Disentanglement and Cross-Modal Alignment for Enhanced Few-Shot Learning"
+    },
+    {
+      "arxiv_id": "2508.03266",
+      "title": "EgoPrompt: Prompt Learning for Egocentric Action Recognition"
+    },
+    {
+      "arxiv_id": null,
+      "title": "InfoBound: A Provable Information-Bounds Inspired Framework for Both OoD Generalization and OoD Detection"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Bridging Information Asymmetry in University–Industry Collaboration: MMKG SNR"
+    },
+    {
+      "arxiv_id": "2508.01579",
+      "title": "Harnessing Textual Semantic Priors for Knowledge Transfer and Refinement in CLIP-Driven Continual Learning"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Logical Anomaly Detection with Text-based Logic via Component-Aware Contrastive Language-Image Training"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Adapting Vision-Language Models for Multi-Label Aerial Image Classification with Partial Labels"
+    },
+    {
+      "arxiv_id": "2508.01225",
+      "title": "Multi-Cache Enhanced Prototype Learning for Test-Time Generalization of Vision-Language Models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Cross-modal generalizable visual-language models via inter-modal bidirectional supervision for enhanced pathology image recognition"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Transforming Product Discovery and Interpretation Using Vision-Language Models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Accelerating on-device visual task adaptation by exploiting hybrid sparsity in DNN training"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Knowledge Distillation with Geometry-Consistent Feature Alignment for Robust Low-Light Apple Detection"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Interpretable Verification Mechanism for Trustworthy Industrial Large Model in Intelligent Manufacturing"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A comprehensive survey of Vision-Language Models: Pretrained models, fine-tuning, prompt engineering, adapters, and benchmark datasets"
+    },
+    {
+      "arxiv_id": null,
+      "title": "KPVG: Knowledge-prompted vision-genomics model for cancer survival prediction in whole slide images"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Large Model Guided Semantic Segment Anything for Underwater Consumer Electronics"
+    },
+    {
+      "arxiv_id": "2507.23070",
+      "title": "Vocabulary-Free Fine-Grained Visual Recognition via Enriched Contextually Grounded Vision-Language Model"
+    },
+    {
+      "arxiv_id": "2507.21888",
+      "title": "CAPE: A CLIP-Aware Pointing Ensemble of Complementary Heatmap Cues for Embodied Reference Understanding"
+    },
+    {
+      "arxiv_id": "2507.21786",
+      "title": "MSGCoOp: Multiple Semantic-Guided Context Optimization for Few-Shot Learning"
+    },
+    {
+      "arxiv_id": "2507.21489",
+      "title": "Describe, Adapt and Combine: Empowering CLIP Encoders for Open-Set 3D Object Retrieval"
+    },
+    {
+      "arxiv_id": "2507.20745",
+      "title": "Regularizing Subspace Redundancy of Low-Rank Adaptation"
+    },
+    {
+      "arxiv_id": "2507.20834",
+      "title": "Rethinking Few Shot CLIP Benchmarks: A Critical Analysis in the Inductive Setting"
+    },
+    {
+      "arxiv_id": "2507.20511",
+      "title": "Beyond Class Tokens: LLM-guided Dominant Property Mining for Few-shot Classification"
+    },
+    {
+      "arxiv_id": "2507.20913",
+      "title": "HAMLET-FFD: Hierarchical Adaptive Multi-modal Learning Embeddings Transformation for Face Forgery Detection"
+    },
+    {
+      "arxiv_id": "2507.21353",
+      "title": "Group Relative Augmentation for Data Efficient Action Detection"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Multimodal Prompt Distillation for Continual Learning: Continuous Error Correction"
+    },
+    {
+      "arxiv_id": "2507.19847",
+      "title": "Knowledge Regularized Negative Feature Tuning of Vision-Language Models for Out-of-Distribution Detection"
+    },
+    {
+      "arxiv_id": "2507.19908",
+      "title": "TrackAny3D: Transferring Pretrained 3D Models for Category-Unified 3D Point Cloud Tracking"
+    },
+    {
+      "arxiv_id": null,
+      "title": "TSAVD-CLIP: One visual encoder learn both temporal and spatial feat"
+    },
+    {
+      "arxiv_id": "2507.18243",
+      "title": "DepthDark: Robust Monocular Depth Estimation for Low-Light Environments"
+    },
+    {
+      "arxiv_id": "2507.18082",
+      "title": "TextSAM-EUS: Text Prompt Learning for SAM to Accurately Segment Pancreatic Tumor in Endoscopic Ultrasound"
+    },
+    {
+      "arxiv_id": "2507.17377",
+      "title": "A Conditional Probability Framework for Compositional Zero-Shot Learning"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Neighborhood-aware adapter for vision-language models"
+    },
+    {
+      "arxiv_id": "2507.15480",
+      "title": "One Last Attention for Your Vision-Language Model"
+    },
+    {
+      "arxiv_id": "2507.15542",
+      "title": "HOLa: Zero-Shot HOI Detection with Low-Rank Decomposed VLM Feature Adaptation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Open-vocabulary object detection with regionwise prompt selection and patch-based category-aware maximal activation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Efficient CLIP Adaptation for Video Anomaly Detection via Spatial and MLP Adapters"
+    },
+    {
+      "arxiv_id": "2507.12851",
+      "title": "Simulate, Refocus and Ensemble: An Attention-Refocusing Scheme for Domain Generalization"
+    },
+    {
+      "arxiv_id": "2507.13568",
+      "title": "LoRA-Loop: Closing the Synthetic Replay Cycle for Continual VLM Learning"
+    },
+    {
+      "arxiv_id": "2507.13089",
+      "title": "GLAD: Generalizable Tuning for Vision-Language Models"
+    },
+    {
+      "arxiv_id": "2507.12816",
+      "title": "FIQ: Fundamental Question Generation with the Integration of Question Embeddings for Video Question Answering"
+    },
+    {
+      "arxiv_id": "2507.12762",
+      "title": "World model-based end-to-end scene generation for accident anticipation in autonomous driving"
+    },
+    {
+      "arxiv_id": "2507.10355",
+      "title": "Beyond Graph Model: Reliable VLM Fine-Tuning via Random Graph Adapter"
+    },
+    {
+      "arxiv_id": null,
+      "title": "CLIP-AdaM: Adapting Multi-view CLIP for Open-set 3D Object Retrieval"
+    },
+    {
+      "arxiv_id": "2507.09487",
+      "title": "HMID-Net: An Exploration of Masked Image Modeling and Knowledge Distillation in Hyperbolic Space"
+    },
+    {
+      "arxiv_id": null,
+      "title": "DePro: Domain Ensemble using Decoupled Prompts for Universal Cross-Domain Retrieval"
+    },
+    {
+      "arxiv_id": "2507.09747",
+      "title": "BrainFLORA: Uncovering Brain Concept Representation via Multimodal Neural Embeddings"
+    },
+    {
+      "arxiv_id": "2507.08410",
+      "title": "Multi-modal Mutual-Guidance Conditional Prompt Learning for Vision-Language Models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Research on Understanding and Improving Deep Hashing Retrieval under Incremental Data"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Reinforcement Learning and Style-Adaptive GANs for AI-Enhanced Creative Scaffolding in Art Design Education"
+    },
+    {
+      "arxiv_id": "2507.07744",
+      "title": "Sparse-Dense Side-Tuner for Efficient Video Temporal Grounding"
+    },
+    {
+      "arxiv_id": "2507.05807",
+      "title": "Improving Robustness of Foundation Models in Domain Adaptation with Soup-Adapters"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Parameter-efficient transfer learning of prompts and adapters on vision-language models"
+    },
+    {
+      "arxiv_id": "2507.05668",
+      "title": "Dynamic Rank Adaptation for Vision-Language Models"
+    },
+    {
+      "arxiv_id": "2507.05677",
+      "title": "Integrated Structural Prompt Learning for Vision-Language Models"
+    },
+    {
+      "arxiv_id": "2507.05394",
+      "title": "pFedMMA: Personalized Federated Fine-Tuning with Multi-Modal Adapter for Vision-Language Models"
+    },
+    {
+      "arxiv_id": "2507.04509",
+      "title": "MVL-Loc: Leveraging Vision-Language Model for Generalizable Multi-Scene Camera Relocalization"
+    },
+    {
+      "arxiv_id": null,
+      "title": "CAT-TPT: Class-Agnostic Text-based Test-time Prompt Tuning for Vision-Language Models"
+    },
+    {
+      "arxiv_id": "2507.03458",
+      "title": "Helping CLIP See Both the Forest and the Trees: A Decomposition and Description Approach"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Mixture of coarse and fine-grained prompt tuning for vision-language model"
+    },
+    {
+      "arxiv_id": "2507.00506",
+      "title": "SCING:Towards More Efficient and Robust Person Re-Identification through Selective Cross-modal Prompt Tuning"
+    },
+    {
+      "arxiv_id": null,
+      "title": "From Single-Cancer to Pan-cancer Prognosis: A Multi-modal Deep Learning Framework for Survival Analysis with Robust Generalization Capability."
+    },
+    {
+      "arxiv_id": null,
+      "title": "MASA: Multi-view adaptive subspace alignment for enhanced few-shot learning"
+    },
+    {
+      "arxiv_id": "2511.12639",
+      "title": "Medical Knowledge Intervention Prompt Tuning for Medical Image Classification"
+    },
+    {
+      "arxiv_id": "2506.23856",
+      "title": "A Closer Look at Conditional Prompt Tuning for Vision-Language Models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "MoAFCL: Feature-Aware Mixture-of-Adapter for Federated Continual Learning"
+    },
+    {
+      "arxiv_id": "2506.23825",
+      "title": "Flash-Vstream: Efficient Real-Time Understanding for Long Video Streams"
+    },
+    {
+      "arxiv_id": "2506.23822",
+      "title": "Interpretable Zero-Shot Learning with Locally-Aligned Vision-Language Model"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Prompt-Guided Aesthetic Assessment with Cross-Modal Semantic Alignment"
+    },
+    {
+      "arxiv_id": null,
+      "title": "MF-Adapter: Better 3D Foundation Model with Multimodal Fusion Adapter"
+    },
+    {
+      "arxiv_id": "2506.23464",
+      "title": "The Confidence Paradox: Can LLM Know When It's Wrong"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Adaptive Semantic Alignment for Automated Radiology Report Generation via Cross-Modal Knowledge Integration"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Blended-Target Domain Adaptation via Multi-Prompt Coordination Learning"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Prompt-Guided Multi-Task Decoupling for Speech Presentation Skills Assessment"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Task-Aware Knowledge Prompt and Distillation for Cross-Domain Few-Shot Learning"
+    },
+    {
+      "arxiv_id": null,
+      "title": "AGFT-Tracker: Adaptive Game-Based PEFT for Object Tracking with PLMs"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Attribute-Guided Zero-Shot CLIP in Image Classification"
+    },
+    {
+      "arxiv_id": null,
+      "title": "AnoCLIP: Text-Guided Zero-shot Anomaly Localization via Self-Supervised Adaptation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Two-stage fine-tuning CLIP by introducing structure knowledge for few-shot classification"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Robust-CLIP: End-to-End Fine-Tuning of Vision-Language Models under Noisy Labels"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Flexible Source-free Domain Generalization via Domain Prompt-Discriminator Collaborative Learning"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Wavelet convolutional vision transformer (WCViT) for Indian classical dance identification"
+    },
+    {
+      "arxiv_id": null,
+      "title": "WS-SAM: Generalizing SAM to Weakly Supervised Object Detection With Category Label"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Adapter-Based Parameter-Efficient Fine-Tuning for Vision-Language Models in Radiology"
+    },
+    {
+      "arxiv_id": "2506.19694",
+      "title": "UltraAD: Fine-Grained Ultrasound Anomaly Classification via Few-Shot CLIP Adaptation"
+    },
+    {
+      "arxiv_id": "2507.00724",
+      "title": "Holmes: Towards Effective and Harmless Model Ownership Verification to Personalized Large Vision Models via Decoupling Common Features"
+    },
+    {
+      "arxiv_id": "2506.18504",
+      "title": "Generalizing vision-language models to novel domains: A comprehensive survey"
+    },
+    {
+      "arxiv_id": "2506.19022",
+      "title": "Orthogonal Projection Subspace to Aggregate Online Prior-knowledge for Continual Test-time Adaptation"
+    },
+    {
+      "arxiv_id": "2506.19320",
+      "title": "Continual Retinal Vision-Language Pre-training upon Incremental Imaging Modalities"
+    },
+    {
+      "arxiv_id": "2506.17500",
+      "title": "Few-Shot, Now for Real: Medical VLMs Adaptation without Balanced Sets or Validation"
+    },
+    {
+      "arxiv_id": "2506.17503",
+      "title": "Trustworthy Few-Shot Transfer of Medical VLMs through Split Conformal Prediction"
+    },
+    {
+      "arxiv_id": "2506.16273",
+      "title": "Fine-grained Image Retrieval via Dual-Vision Adaptation"
+    },
+    {
+      "arxiv_id": "2506.16396",
+      "title": "GoalLadder: Incremental Goal Discovery with Vision-Language Models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Entangle-then-disentangle: a novel approach for enhancing large vision-language model"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Transferring CLIP for visual grounding in remote sensing images"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Dual-Attention Model for Camera-Based Few-Shot Object Detection"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Multi-modal Prompt Alignment with Fine-grained LLM Knowledge for Unsupervised Domain Adaptation"
+    },
+    {
+      "arxiv_id": "2506.10911",
+      "title": "NoLoCo: No-all-reduce Low Communication Training Method for Large Models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Decoupling Discriminative Attributes for Few-Shot Fine-Grained Recognition"
+    },
+    {
+      "arxiv_id": "2506.09883",
+      "title": "3D-Aware Vision-Language Models Fine-Tuning with Geometric Distillation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Automated Essential Concept Discovery for Few-Shot Out-of-Distribution Detection"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Effectiveness of Max-Pooling for Fine-Tuning CLIP on Videos"
+    },
+    {
+      "arxiv_id": null,
+      "title": "PiCaZo: Pixel-Aligned Contrastive Learning for Zero-Shot Domain Adaptation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Reproducible Vision-Language Models Meet Concepts Out of Pre-Training"
+    },
+    {
+      "arxiv_id": null,
+      "title": "AdMiT: Adaptive Multi-Source Tuning in Dynamic Environments"
+    },
+    {
+      "arxiv_id": "2506.10182",
+      "title": "Improving Personalized Search with Regularized Low-Rank Parameter Updates"
+    },
+    {
+      "arxiv_id": "2507.06973",
+      "title": "Free on the Fly: Enhancing Flexibility in Test-Time Adaptation with Online EM"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Joint Scheduling of Causal Prompts and Tasks for Multi-Task Learning"
+    },
+    {
+      "arxiv_id": null,
+      "title": "ImagineFSL: Self-Supervised Pretraining Matters on Imagined Base Set for VLM-based Few-shot Learning"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Once-Tuning-Multiple-Variants: Tuning Once and Expanded as Multiple Vision-Language Model Variants"
+    },
+    {
+      "arxiv_id": null,
+      "title": "LoRA Recycle: Unlocking Tuning-Free Few-Shot Adaptability in Visual Foundation Models by Recycling Pre-Tuned LoRAs"
+    },
+    {
+      "arxiv_id": null,
+      "title": "CLIP-driven Coarse-to-fine Semantic Guidance for Fine-grained Open-set Semi-supervised Learning"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Adaptive Parameter Selection for Tuning Vision-Language Models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "CLIP is Almost All You Need: Towards Parameter-Efficient Scene Text Retrieval without OCR"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Hierarchical Knowledge Prompt Tuning for Multi-task Test-Time Adaptation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Closest Neighbors are Harmful for Lightweight Masked Auto-encoders"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Overcoming Shortcut Problem in VLM for Robust Out-of-Distribution Detection"
+    },
+    {
+      "arxiv_id": "2506.07576",
+      "title": "Super Encoding Network: Recursive Association of Multi-Modal Encoders for Video Understanding"
+    },
+    {
+      "arxiv_id": "2506.06076",
+      "title": "Full Conformal Adaptation of Medical Vision-Language Models"
+    },
+    {
+      "arxiv_id": "2506.04673",
+      "title": "Interpretable Few-Shot Image Classification via Prototypical Concept-Guided Mixture of LoRA Experts"
+    },
+    {
+      "arxiv_id": "2506.04650",
+      "title": "Neural Network Reprogrammability: A Unified Theme on Model Reprogramming, Prompt Tuning, and Prompt Instruction"
+    },
+    {
+      "arxiv_id": "2506.04713",
+      "title": "Enabling Validation for Robust Few-Shot Recognition"
+    },
+    {
+      "arxiv_id": "2506.04005",
+      "title": "Vocabulary-Free Few-Shot Learning for Vision-Language Models"
+    },
+    {
+      "arxiv_id": "2506.03926",
+      "title": "Multiple Stochastic Prompt Tuning for Few-shot Adaptation under Extreme Domain Shift"
+    },
+    {
+      "arxiv_id": "2506.03229",
+      "title": "Bridging Weakly-Supervised Learning and VLM Distillation: Noisy Partial Label Learning for Efficient Downstream Adaptation"
+    },
+    {
+      "arxiv_id": "2506.02964",
+      "title": "FORLA:Federated Object-centric Representation Learning with Slot Attention"
+    },
+    {
+      "arxiv_id": "2506.02557",
+      "title": "Kernel-based Unsupervised Embedding Alignment for Enhanced Visual Representation in Vision-language Models"
+    },
+    {
+      "arxiv_id": "2506.01247",
+      "title": "Beyond Interpretability: When, Why, and How Sparse Autoencoders Enable Label-Free Visual Steering"
+    },
+    {
+      "arxiv_id": "2506.00956",
+      "title": "Continual-MEGA: A Large-scale Benchmark for Generalizable Continual Anomaly Detection"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Deep Residual Coupled Prompt Learning for Zero-Shot Sketch-Based Image Retrieval"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Model Recovery in Federated Unlearning With Restricted Server Data Resources"
+    },
+    {
+      "arxiv_id": null,
+      "title": "MSPL: Multimodal Statistical Prompt Learning for New Energy Equipment Defect Recognition"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Saliency Feature Learning for Multimodality Person Retrieval in Visual Internet of Things"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Adpl: attentive dual-modality prompt learning for vision-language understanding"
+    },
+    {
+      "arxiv_id": "2506.00910",
+      "title": "PCoreSet: Effective Active Learning through Knowledge Distillation from Vision-Language Models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A few-shot classification framework based on multimodal representation fusion of hybrid pre-trained models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A review on enhancing agricultural intelligence with large language models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Variational Adapter: Improving CLIP in Data-Imbalanced Scenarios"
+    },
+    {
+      "arxiv_id": null,
+      "title": "DviT: Debiased variational inference for multi-modal mutual prompt tuning"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Text-to-image person retrieval with implicit relation alignment and contrastive learning"
+    },
+    {
+      "arxiv_id": null,
+      "title": "TDA-L: Reducing Latency and Memory Consumption of Test-Time Adaptation for Real-Time Intelligent Sensing"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A review of few-shot image classification: Approaches, datasets and research trends"
+    },
+    {
+      "arxiv_id": null,
+      "title": "The bottlenecks of AI: challenges for embedded and real-time research in a data-centric age"
+    },
+    {
+      "arxiv_id": "2505.24693",
+      "title": "Conformal Prediction for Zero-Shot Models"
+    },
+    {
+      "arxiv_id": "2505.24088",
+      "title": "Proxy-FDA: Proxy-based Feature Distribution Alignment for Fine-tuning Vision Foundation Models without Forgetting"
+    },
+    {
+      "arxiv_id": "2505.23271",
+      "title": "LADA: Scalable Label-Specific CLIP Adapter for Continual Learning"
+    },
+    {
+      "arxiv_id": "2505.23358",
+      "title": "Beam-Guided Knowledge Replay for Knowledge-Rich Image Captioning using Vision-Language Model"
+    },
+    {
+      "arxiv_id": "2505.20680",
+      "title": "Continual Learning on CLIP via Incremental Prompt Tuning with Intrinsic Textual Anchors"
+    },
+    {
+      "arxiv_id": "2505.20612",
+      "title": "Roboflow100-VL: A Multi-Domain Object Detection Benchmark for Vision-Language Models"
+    },
+    {
+      "arxiv_id": "2505.21698",
+      "title": "Adapting Foundation Vision-Language Models to Medical Diagnosis via Query-Driven Expert Bridging"
+    },
+    {
+      "arxiv_id": "2505.19373",
+      "title": "DiSa: Directional Saliency-Aware Prompt Learning for Generalizable Vision-Language Models"
+    },
+    {
+      "arxiv_id": "2505.21549",
+      "title": "Distill CLIP (DCLIP): Enhancing Image-Text Retrieval via Cross-Modal Transformer Distillation"
+    },
+    {
+      "arxiv_id": "2505.18770",
+      "title": "Dual-Path Stable Soft Prompt Generation for Domain Generalization"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Supplementary Prompt Learning for Vision-Language Models"
+    },
+    {
+      "arxiv_id": "2505.17982",
+      "title": "Few-Shot Learning from Gigapixel Images via Hierarchical Vision-Language Alignment and Modeling"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Unifying Vision-Language Models and Knowledge Graphs for Zero-Shot Counter-Intuitive Reasoning in Images"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Channel Importance Adapter for Test-Time Adaptation in Vision-Language Models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Tip-Adapter-SA: Training-Free CLIP-Adapter Enhanced by Semantic Alignment for Multi-Label Few-Shot Classification with Single Positive Labels"
+    },
+    {
+      "arxiv_id": null,
+      "title": "An Investigation of Parameter Efficient Federated Learning with Foundation Model"
+    },
+    {
+      "arxiv_id": null,
+      "title": "SILoR: SVD-Based Initialization for Low-Rank Adaptation in Vision Transformers"
+    },
+    {
+      "arxiv_id": "2505.16756",
+      "title": "Representation Discrepancy Bridging Method for Remote Sensing Image-Text Retrieval"
+    },
+    {
+      "arxiv_id": null,
+      "title": "ALOHA: Adapting Local Spatio-Temporal Context to Enhance the Audio-Visual Semantic Segmentation"
+    },
+    {
+      "arxiv_id": "2505.15130",
+      "title": "Few-Shot Adversarial Low-Rank Fine-Tuning of Vision-Language Models"
+    },
+    {
+      "arxiv_id": "2505.14361",
+      "title": "Vision-Language Modeling Meets Remote Sensing: Models, datasets, and perspectives"
+    },
+    {
+      "arxiv_id": null,
+      "title": "ProFusion: Multimodal Prototypical Networks for Few-Shot Learning with Feature Fusion"
+    },
+    {
+      "arxiv_id": "2505.12685",
+      "title": "Mamba-Adaptor: State Space Model Adaptor for Visual Recognition"
+    },
+    {
+      "arxiv_id": "2505.13233",
+      "title": "From Local Details to Global Context: Advancing Vision-Language Models with Attention-Based Selection"
+    },
+    {
+      "arxiv_id": "2505.11758",
+      "title": "Generalizable Vision-Language Few-Shot Adaptation with Predictive Prompts and Negative Learning"
+    },
+    {
+      "arxiv_id": null,
+      "title": "LGVLM-mIoT: A Lightweight Generative Visual-Language Model for Multilingual IoT Applications"
+    },
+    {
+      "arxiv_id": "2505.10088",
+      "title": "MMRL++: Parameter-Efficient and Interaction-Aware Representation Learning for Vision-Language Models"
+    },
+    {
+      "arxiv_id": "2505.09358",
+      "title": "Marigold: Affordable Adaptation of Diffusion-Based Image Generators for Image Analysis"
+    },
+    {
+      "arxiv_id": "2505.08548",
+      "title": "From Seeing to Doing: Bridging Reasoning and Decision for Robotic Manipulation"
+    },
+    {
+      "arxiv_id": "2505.07690",
+      "title": "Beyond CLIP Generalization: Against Forward&Backward Forgetting Adapter for Continual Learning of Vision-Language Models"
+    },
+    {
+      "arxiv_id": "2505.07675",
+      "title": "Simple yet Effective Semi-supervised Knowledge Distillation from Vision-Language Models via Dual-Head Optimization"
+    },
+    {
+      "arxiv_id": "2505.06002",
+      "title": "Task-Adapter++: Task-specific Adaptation with Order-aware Alignment for Few-shot Action Recognition"
+    },
+    {
+      "arxiv_id": "2505.05189",
+      "title": "Biomed-DPT: Dual Modality Prompt Tuning for Biomedical Vision-Language Models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Dual Adapter Tuning of Vision–Language Models Using Large Language Models"
+    },
+    {
+      "arxiv_id": "2505.05422",
+      "title": "TokLIP: Marry Visual Tokens to CLIP for Multimodal Comprehension and Generation"
+    },
+    {
+      "arxiv_id": "2505.05229",
+      "title": "Does CLIP Perceive Art the Same Way We Do?"
+    },
+    {
+      "arxiv_id": "2505.02704",
+      "title": "VGLD: Visually-Guided Linguistic Disambiguation for Monocular Depth Scale Recovery"
+    },
+    {
+      "arxiv_id": "2505.02056",
+      "title": "Handling Imbalanced Pseudolabels for Vision-Language Models with Concept Alignment and Confusion-Aware Calibrated Margin"
+    },
+    {
+      "arxiv_id": "2505.01064",
+      "title": "Efficient Vocabulary-Free Fine-Grained Visual Recognition in the Age of Multimodal LLMs"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Multi-modal prompt learning with bidirectional layer-wise prompt fusion"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Evaluating and predicting the impact of storage conditions and packaging materials on the physical properties of paddy rice using machine learning approaches and artificial neural networks"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Knowledge Integration for Grounded Situation Recognition"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Tri-AFLLM: Resource-Efficient Adaptive Asynchronous Accelerated Federated LLMs"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Text-Video Knowledge Guided Prompting for Weakly Supervised Temporal Action Localization"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Multi-task prompt adapter for vision-language model"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Weakly supervised bird-flock counting in wetlands based on multimodal optical image perception"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Recognizing human-object interactions in videos with the supervision of natural language"
+    },
+    {
+      "arxiv_id": "2504.21423",
+      "title": "Diff-Prompt: Diffusion-Driven Prompt Generator with Mask Supervision"
+    },
+    {
+      "arxiv_id": "2504.20860",
+      "title": "FedMVP: Federated Multimodal Visual Prompt Tuning for Vision-Language Models"
+    },
+    {
+      "arxiv_id": "2504.18158",
+      "title": "E-InMeMo: Enhanced Prompting for Visual In-Context Learning"
+    },
+    {
+      "arxiv_id": "2504.16433",
+      "title": "FrogDogNet: Fourier Frequency Retained Visual Prompt Output Guidance for Domain Generalization of CLIP in Remote Sensing"
+    },
+    {
+      "arxiv_id": "2504.14467",
+      "title": "LGD: Leveraging Generative Descriptions for Zero-Shot Referring Image Segmentation"
+    },
+    {
+      "arxiv_id": "2504.14280",
+      "title": "CLIP-Powered Domain Generalization and Domain Adaptation: A Comprehensive Survey"
+    },
+    {
+      "arxiv_id": "2504.12104",
+      "title": "Logits DeConfusion with CLIP for Few-Shot Learning"
+    },
+    {
+      "arxiv_id": "2504.12436",
+      "title": "Sparsity Outperforms Low-Rank Projections in Few-Shot Adaptation"
+    },
+    {
+      "arxiv_id": "2504.10854",
+      "title": "LVLM_CSP: Accelerating Large Vision Language Models via Clustering, Scattering, and Pruning for Reasoning Segmentation"
+    },
+    {
+      "arxiv_id": "2504.09828",
+      "title": "FATE: A Prompt-Tuning-Based Semi-Supervised Learning Framework for Extremely Limited Labeled Data"
+    },
+    {
+      "arxiv_id": "2504.10487",
+      "title": "FLOSS: Free Lunch in Open-Vocabulary Semantic Segmentation"
+    },
+    {
+      "arxiv_id": "2504.10018",
+      "title": "RGB-Event based Pedestrian Attribute Recognition: A Benchmark Dataset and An Asymmetric RWKV Fusion Framework"
+    },
+    {
+      "arxiv_id": "2504.10084",
+      "title": "UP-Person: Unified Parameter-Efficient Transfer Learning for Text-Based Person Retrieval"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Text-Guided Dual Feature Enhancement: A Training-Free Paradigm for Few-Shot Learning with CLIP"
+    },
+    {
+      "arxiv_id": "2504.05904",
+      "title": "Saliency-Motion Guided Trunk-Collateral Network for Unsupervised Video Object Segmentation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Federated Prototype Guided Adaption for Vision-Language Models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "PulmoScan: A Practical Pulmonary Disease Pre-Screening System"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Bridging Task Boundaries: Remote Sensing Image-Text Retrieval via Dictionary-Driven Adaptation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Semi-Automatic Labeling for Action Recognition by Diversity Preserving Sampling"
+    },
+    {
+      "arxiv_id": "2504.03235",
+      "title": "Enhancing Traffic Incident Response through Sub-Second Temporal Localization with HybridMamba"
+    },
+    {
+      "arxiv_id": "2504.01666",
+      "title": "CLIP-SLA: Parameter-Efficient CLIP Adaptation for Continuous Sign Language Recognition"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Pixel-level semantic parsing in complex industrial scenarios using large vision-language models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Production-based progress monitoring of rebar tying using few-shot learning and kernel density"
+    },
+    {
+      "arxiv_id": null,
+      "title": "LuoJiaHOG: A hierarchy oriented geo-aware image caption dataset for remote sensing image–text retrieval"
+    },
+    {
+      "arxiv_id": "2504.00429",
+      "title": "Unleashing the Power of Pre-trained Encoders for Universal Adversarial Attack Detection"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Cross-Modality Image Interpretation via Concept Decomposition Vector of Visual-Language Models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "MIF: Multi-source information fusion for few-shot classification with CLIP"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A multi-task learning framework with prompt-based hybrid alignment for vision-language model"
+    },
+    {
+      "arxiv_id": null,
+      "title": "MDSI: Pluggable Multi-strategy Decoupling with Semantic Integration for RGB-D Gesture Recognition"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Dynamic cache-updating contrastive language-image pre-training model for few-shot remote sensing image classification"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Automated text annotation: a new paradigm for generalizable text-to-image person retrieval"
+    },
+    {
+      "arxiv_id": "2503.20492",
+      "title": "Towards Efficient and General-Purpose Few-Shot Misclassification Detection for Vision-Language Models"
+    },
+    {
+      "arxiv_id": "2503.20826",
+      "title": "Exploring CLIP’s Dense Knowledge for Weakly Supervised Semantic Segmentation"
+    },
+    {
+      "arxiv_id": "2503.19670",
+      "title": "fine-CLIP: Enhancing Zero-Shot Fine-Grained Surgical Action Recognition with Vision-Language Models"
+    },
+    {
+      "arxiv_id": "2503.18407",
+      "title": "VTD-CLIP: Video-to-Text Discretization via Prompting CLIP"
+    },
+    {
+      "arxiv_id": "2503.18334",
+      "title": "Mitigating Cache Noise in Test-Time Adaptation for Large Vision-Language Models"
+    },
+    {
+      "arxiv_id": "2503.18338",
+      "title": "SPMTrack: Spatio-Temporal Parameter-Efficient Fine-Tuning with Mixture of Experts for Scalable Visual Tracking"
+    },
+    {
+      "arxiv_id": "2503.18695",
+      "title": "OCRT: Boosting Foundation Models in the Open World with Object-Concept-Relation Triad"
+    },
+    {
+      "arxiv_id": "2503.19145",
+      "title": "Compositional Caching for Training-free Open-vocabulary Attribute Detection"
+    },
+    {
+      "arxiv_id": "2503.17142",
+      "title": "Not Only Text: Exploring Compositionality of Visual Representations in Vision-Language Models"
+    },
+    {
+      "arxiv_id": "2503.15886",
+      "title": "Enhancing Zero-Shot Image Recognition in Vision-Language Models through Human-like Concept Guidance"
+    },
+    {
+      "arxiv_id": "2503.15867",
+      "title": "TruthLens: Visual Grounding for Universal DeepFake Reasoning"
+    },
+    {
+      "arxiv_id": "2503.15940",
+      "title": "UniCrossAdapter: Multimodal Adaptation of CLIP for Radiology Report Generation"
+    },
+    {
+      "arxiv_id": "2503.15337",
+      "title": "Recover and Match: Open-Vocabulary Multi-Label Recognition through Knowledge-Constrained Optimal Transport"
+    },
+    {
+      "arxiv_id": "2503.15295",
+      "title": "DCA: Dividing and Conquering Amnesia in Incremental Object Detection"
+    },
+    {
+      "arxiv_id": "2503.14938",
+      "title": "Optimal Transport Adapter Tuning for Bridging Modality Gaps in Few-Shot Remote Sensing Scene Classification"
+    },
+    {
+      "arxiv_id": "2503.15126",
+      "title": "Text-Derived Relational Graph-Enhanced Network for Skeleton-Based Action Segmentation"
+    },
+    {
+      "arxiv_id": "2503.13794",
+      "title": "LED: LLM Enhanced Open-Vocabulary Object Detection without Human Curated Data Generation"
+    },
+    {
+      "arxiv_id": "2503.13443",
+      "title": "DPC: Dual-Prompt Collaboration for Tuning Vision-Language Models"
+    },
+    {
+      "arxiv_id": "2503.12206",
+      "title": "TLAC: Two-Stage LMM Augmented CLIP for Zero-Shot Classification"
+    },
+    {
+      "arxiv_id": "2503.12356",
+      "title": "Localized Concept Erasure for Text-to-Image Diffusion Models Using Training-Free Gated Low-Rank Adaptation"
+    },
+    {
+      "arxiv_id": "2503.14517",
+      "title": "Cafe-Talk: Generating 3D Talking Face Animation with Multimodal Coarse- and Fine-grained Control"
+    },
+    {
+      "arxiv_id": "2503.11609",
+      "title": "Rethinking Few-Shot Adaptation of Vision-Language Models in Two Stages"
+    },
+    {
+      "arxiv_id": "2503.11892",
+      "title": "DecAlign: Hierarchical Cross-Modal Alignment for Decoupled Multimodal Representation Learning"
+    },
+    {
+      "arxiv_id": "2503.09394",
+      "title": "Bidirectional Prototype-Reward co-Evolution for Test-Time Adaptation of Vision-Language Models"
+    },
+    {
+      "arxiv_id": "2503.09487",
+      "title": "Project-Probe-Aggregate: Efficient Fine-Tuning for Group Robustness"
+    },
+    {
+      "arxiv_id": "2503.09248",
+      "title": "Bayesian Test-Time Adaptation for Vision-Language Models"
+    },
+    {
+      "arxiv_id": "2503.08906",
+      "title": "Prompt-OT: An Optimal Transport Regularization Paradigm for Knowledge Preservation in Vision-Language Model Adaptation"
+    },
+    {
+      "arxiv_id": "2503.08497",
+      "title": "MMRL: Multi-Modal Representation Learning for Vision-Language Models"
+    },
+    {
+      "arxiv_id": "2503.08367",
+      "title": "Embodied Crowd Counting"
+    },
+    {
+      "arxiv_id": "2503.08229",
+      "title": "Modeling Variants of Prompts for Vision-Language Models"
+    },
+    {
+      "arxiv_id": "2503.07075",
+      "title": "XR-VLM: Cross-Relationship Modeling with Multi-part Prompts and Visual Features for Fine-Grained Recognition"
+    },
+    {
+      "arxiv_id": "2503.07552",
+      "title": "Federated Multimodal Learning with Dual Adapters and Selective Pruning for Communication and Computational Efficiency"
+    },
+    {
+      "arxiv_id": "2503.06446",
+      "title": "M³amba: CLIP-Driven Mamba Model for Multi-Modal Remote Sensing Classification"
+    },
+    {
+      "arxiv_id": "2503.06661",
+      "title": "AA-CLIP: Enhancing Zero-Shot Anomaly Detection via Anomaly-Aware CLIP"
+    },
+    {
+      "arxiv_id": "2503.06236",
+      "title": "Dynamically evolving segment anything model with continuous learning for medical image segmentation"
+    },
+    {
+      "arxiv_id": "2503.04543",
+      "title": "Keeping Yourself is Important in Downstream Tuning Multimodal Large Language Model"
+    },
+    {
+      "arxiv_id": "2503.04229",
+      "title": "Synthetic Data is an Elegant GIFT for Continual Vision-Language Models"
+    },
+    {
+      "arxiv_id": "2503.01531",
+      "title": "Diversity Covariance-Aware Prompt Learning for Vision-Language Models"
+    },
+    {
+      "arxiv_id": "2503.01754",
+      "title": "SDRT: Enhance Vision-Language Models by Self-Distillation with Diverse Reasoning Traces"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Detection of novel prohibited item categories for real-world security inspection"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Variational Feature Imitation Conditioned on Visual Descriptions for Few-Shot Fine-Grained Recognition"
+    },
+    {
+      "arxiv_id": null,
+      "title": "MFAFD: a few-shot learning method for cascading models with parameter free attention and finite discrete space"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Inference Calibration of Vision-Language Foundation Models for Zero-Shot and Few-Shot Learning"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Fine-grained multi-modal prompt learning for vision-language models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Object-Level and Scene-Level Feature Aggregation with CLIP for scene recognition"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Attention head purification: A new perspective to harness CLIP for domain generalization"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Enhancing Visual-Language Prompt Tuning Through Sparse Knowledge-Guided Context Optimization"
+    },
+    {
+      "arxiv_id": "2502.21313",
+      "title": "Unsupervised Parameter Efficient Source-free Post-pretraining"
+    },
+    {
+      "arxiv_id": "2502.19946",
+      "title": "Space Rotation with Basis Transformation for Training-free Test-Time Adaptation"
+    },
+    {
+      "arxiv_id": "2502.19777",
+      "title": "InPK: Infusing Prior Knowledge into Prompt for Vision-Language Models"
+    },
+    {
+      "arxiv_id": "2502.19844",
+      "title": "ProAPO: Progressively Automatic Prompt Optimization for Visual Classification"
+    },
+    {
+      "arxiv_id": "2502.18735",
+      "title": "QueryAdapter: Rapid Adaptation of Vision-Language Models in Response to Natural Language Queries"
+    },
+    {
+      "arxiv_id": "2503.05776",
+      "title": "FAA-CLIP: Federated Adversarial Adaptation of CLIP"
+    },
+    {
+      "arxiv_id": null,
+      "title": "PositiveCoOp: Rethinking Prompting Strategies for Multi-Label Recognition with Partial Annotations"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Cap2Aug: Caption Guided Image data Augmentation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Cross-Modal Feature Alignment and MMD Improve Robustness of Prompt Tuning"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Optimizing Vision-Language Model for Road Crossing Intention Estimation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "TFM2: Training-Free Mask Matching for Open-Vocabulary Semantic Segmentation"
+    },
+    {
+      "arxiv_id": "2502.18200",
+      "title": "Zero-Shot Semantic Communication With Multimodal Foundation Models"
+    },
+    {
+      "arxiv_id": "2502.17028",
+      "title": "Distributional Vision-Language Alignment by Cauchy-Schwarz Divergence"
+    },
+    {
+      "arxiv_id": null,
+      "title": "When Adversarial Training Meets Prompt Tuning: Adversarial Dual Prompt Tuning for Unsupervised Domain Adaptation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "UMPA: Unified multi-modal prompt with adapter for vision-language models"
+    },
+    {
+      "arxiv_id": "2502.15202",
+      "title": "GNN-Coder: Boosting Semantic Code Retrieval with Combined GNNs and Transformer"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Consistent Prompt Tuning for Generalized Category Discovery"
+    },
+    {
+      "arxiv_id": "2502.15011",
+      "title": "CrossOver: 3D Scene Cross-Modal Alignment"
+    },
+    {
+      "arxiv_id": "2502.14113",
+      "title": "Object-centric Binding in Contrastive Language-Image Pretraining"
+    },
+    {
+      "arxiv_id": "2502.15809",
+      "title": "Black Sheep in the Herd: Playing with Spuriously Correlated Attributes for Vision-Language Recognition"
+    },
+    {
+      "arxiv_id": "2502.12582",
+      "title": "Adaptive Prototype Model for Attribute-based Multi-label Few-shot Action Recognition"
+    },
+    {
+      "arxiv_id": "2502.11532",
+      "title": "Control-CLIP: Decoupling Category and Style Guidance in CLIP for Specific-Domain Generation"
+    },
+    {
+      "arxiv_id": "2502.11969",
+      "title": "Learning Generalizable Prompt for CLIP with Class Similarity Knowledge"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A two-stage cognitive framework for referring multiobject tracking: mimicking human cognitive processes"
+    },
+    {
+      "arxiv_id": "2502.10694",
+      "title": "Simulations of Common Unsupervised Domain Adaptation Algorithms for Image Classification"
+    },
+    {
+      "arxiv_id": "2502.07855",
+      "title": "Vision-Language Models for Edge Networks: A Comprehensive Survey"
+    },
+    {
+      "arxiv_id": "2502.07847",
+      "title": "Confidence-Calibrated Covariate Shift Correction for Few-Shot Classification in Vision-Language Models"
+    },
+    {
+      "arxiv_id": "2502.07409",
+      "title": "MGPATH: Vision-Language Model with Multi-Granular Prompt Learning for Few-Shot WSI Classification"
+    },
+    {
+      "arxiv_id": null,
+      "title": "CSP-DCPE: Category-Specific Prompt with Deep Contextual Prompt Enhancement for Vision–Language Models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Alignclip: navigating the misalignments for robust vision-language generalization"
+    },
+    {
+      "arxiv_id": "2502.03029",
+      "title": "On Zero-Initialized Attention: Optimal Prompt and Gating Factor Estimation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Transferable Unintentional Action Localization With Language-Guided Intention Translation"
+    },
+    {
+      "arxiv_id": "2502.01183",
+      "title": "Enhancing Environmental Robustness in Few-Shot Learning via Conditional Representation Learning"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Global-local prompts guided image-text embedding, alignment and aggregation for multi-label zero-shot learning"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Cross-modal augmentation for few-shot multimodal fake news detection"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Vision-Language Models in medical image analysis: From simple fusion to general large models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Enhancing generalization in camera trap image recognition: Fine-tuning visual language models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "PlantCaFo: An efficient few-shot plant disease recognition method based on foundation models"
+    },
+    {
+      "arxiv_id": "2501.18592",
+      "title": "Advances in Multimodal Adaptation and Generalization: From Traditional Approaches to Foundation Models"
+    },
+    {
+      "arxiv_id": "2501.17595",
+      "title": "Technical report on label-informed logit redistribution for better domain generalization in low-shot classification with foundation models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Learning with Enriched Inductive Biases for Vision-Language Models"
+    },
+    {
+      "arxiv_id": "2501.16282",
+      "title": "BRAIN-ADAPTER: ENHANCING NEUROLOGICAL DISORDER ANALYSIS WITH ADAPTER-TUNING MULTIMODAL LARGE LANGUAGE MODELS"
+    },
+    {
+      "arxiv_id": "2501.15798",
+      "title": "MM-Retinal V2: Transfer an Elite Knowledge Spark into Fundus Vision-Language Pretraining"
+    },
+    {
+      "arxiv_id": "2501.14308",
+      "title": "Learning Primitive Relations for Compositional Zero-Shot Learning"
+    },
+    {
+      "arxiv_id": "2501.13787",
+      "title": "Parameter-Efficient Fine-Tuning for Foundation Models"
+    },
+    {
+      "arxiv_id": "2501.13368",
+      "title": "MetaWild: A Multimodal Dataset for Animal Re-Identification with Environmental Metadata"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Integrated Image-Text Augmentation for Few-Shot Learning in Vision-Language Models"
+    },
+    {
+      "arxiv_id": "2501.11175",
+      "title": "ProKeR: A Kernel Perspective on Few-Shot Adaptation of Large Vision-Language Models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Contrastive Dual-Pool Feature Adaption for Domain Incremental Remote Sensing Scene Classification"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Visual-textual adversarial learning for person re-identification"
+    },
+    {
+      "arxiv_id": "2501.09877",
+      "title": "CLAP-S: Support Set Based Adaptation for Downstream Fiber-optic Acoustic Recognition"
+    },
+    {
+      "arxiv_id": "2501.09052",
+      "title": "Continual Test-Time Adaptation for Single Image Defocus Deblurring via Causal Siamese Networks"
+    },
+    {
+      "arxiv_id": "2501.07554",
+      "title": "SST-EM: Advanced Metrics for Evaluating Semantic, Spatial and Temporal Aspects in Video Editing"
+    },
+    {
+      "arxiv_id": "2501.07016",
+      "title": "A Multi-Modal Deep Learning Framework for Pan-Cancer Prognosis"
+    },
+    {
+      "arxiv_id": "2501.07297",
+      "title": "Toward Realistic Camouflaged Object Detection: Benchmarks and Method"
+    },
+    {
+      "arxiv_id": "2501.06031",
+      "title": "Generate, Transduct, Adapt: Iterative Transduction with VLMs"
+    },
+    {
+      "arxiv_id": "2501.04352",
+      "title": "Online Gaussian Test-Time Adaptation of Vision-Language Models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "SF-SAM-Adapter: SAM-based segmentation model integrates prior knowledge for gaze image reflection noise removal"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Consistent prompt learning for vision-language models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A Slim Prompt-Averaged Consistency prompt learning for vision-language model"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Rotation‐Robust Remote Sensing Image Classification Method Based on Paired Image Description of Vision‐Language Model"
+    },
+    {
+      "arxiv_id": "2412.20206",
+      "title": "Toward Visual Grounding: A Survey"
+    },
+    {
+      "arxiv_id": "2412.20110",
+      "title": "Cross-Modal Mapping: Mitigating the Modality Gap for Few-Shot Image Classification"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Research on Substation Personnel Fall Detection Method Based on Vision-Language Models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Paint defect detection system based on improved algorithm"
+    },
+    {
+      "arxiv_id": "2412.19087",
+      "title": "MoPD: Mixture-of-Prompts Distillation for Vision-Language Models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "CoCM: Conditional Cross-Modal Learning for Vision-Language Models"
+    },
+    {
+      "arxiv_id": "2412.18303",
+      "title": "Efficient and Context-Aware Label Propagation for Zero-/Few-Shot Training-Free Adaptation of Vision-Language Model"
+    },
+    {
+      "arxiv_id": "2412.17684",
+      "title": "COBRA: COmBinatorial Retrieval Augmentation for Few-Shot Adaptation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Category-instance distillation based on visual-language models for rehearsal-free class incremental learning"
+    },
+    {
+      "arxiv_id": "2412.16897",
+      "title": "MVREC: A General Few-shot Defect Classification Model Using Multi-View Region-Context"
+    },
+    {
+      "arxiv_id": "2412.16739",
+      "title": "UNEM: UNrolled Generalized EM for Transductive Few-Shot Learning"
+    },
+    {
+      "arxiv_id": "2412.15813",
+      "title": "Cross-Modal Few-Shot Learning with Second-Order Neural Ordinary Differential Equations"
+    },
+    {
+      "arxiv_id": null,
+      "title": "CLIP-ViT Detector: Side Adapter with Prompt for Vision Transformer Object Detection"
+    },
+    {
+      "arxiv_id": null,
+      "title": "MoE-TTA: Enhancing Continual Test-Time Adaptation for Vision-Language Models through Mixture of Experts"
+    },
+    {
+      "arxiv_id": "2412.13732",
+      "title": "Modeling Multi-modal Cross-interaction for Multi-label Few-shot Image Classification Based on Local Feature Selection"
+    },
+    {
+      "arxiv_id": "2412.12793",
+      "title": "CRoF: CLIP-based Robust Few-shot Learning on Noisy Labels"
+    },
+    {
+      "arxiv_id": "2412.11375",
+      "title": "Text and Image Are Mutually Beneficial: Enhancing Training-Free Few-Shot Classification with CLIP"
+    },
+    {
+      "arxiv_id": "2412.11509",
+      "title": "Skip Tuning: Pre-trained Vision-Language Models are Effective and Efficient Adapters Themselves"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Disentangled Prompt Learning for Transferable, Multimodal, Few-Shot Image Classification"
+    },
+    {
+      "arxiv_id": "2412.10817",
+      "title": "Enhance Vision-Language Alignment with Noise"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Constraint embedding for prompt tuning in vision-language pre-trained model"
+    },
+    {
+      "arxiv_id": "2412.09706",
+      "title": "Diffusion-Enhanced Test-Time Adaptation with Text and Image Augmentation"
+    },
+    {
+      "arxiv_id": "2412.07591",
+      "title": "CoinCLIP: A Multimodal Framework for Assessing Viability in Web3 Memecoins"
+    },
+    {
+      "arxiv_id": "2412.07226",
+      "title": "Attention Head Purification: A New Perspective to Harness CLIP for Domain Generalization"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Novel multimodal contrast learning framework using zero-shot prediction for abnormal behavior recognition"
+    },
+    {
+      "arxiv_id": null,
+      "title": "End-to-end Prediction of Streaming Video Quality of Experience: Dataset and Approach"
+    },
+    {
+      "arxiv_id": null,
+      "title": "ALICE: Adapt your Learnable Image Compression modEl for variable bitrates"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Semantic-Guided Diffusion Prototypical Network for Few-Shot Classification"
+    },
+    {
+      "arxiv_id": "2412.04533",
+      "title": "Mask-Adapter: The Devil is in the Masks for Open-Vocabulary Segmentation"
+    },
+    {
+      "arxiv_id": "2412.03093",
+      "title": "Expanding Event Modality Applications through a Robust CLIP-Based Encoder"
+    },
+    {
+      "arxiv_id": null,
+      "title": "CELL: Supplementing Context for Multi-modal Few-shot Cardiologist"
+    },
+    {
+      "arxiv_id": "2606.01947",
+      "title": "Parameter-Efficient Fine-Tuning of Large Pretrained Models for Instance Segmentation Tasks"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Synth-CLIP: Synthetic data make CLIP generalize better in data-limited scenarios"
+    },
+    {
+      "arxiv_id": "2412.00622",
+      "title": "Visual Modality Prompt for Adapting Vision-Language Object Detectors"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Plant leaf disease identification by parameter-efficient transformer with adapter"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Explore and Cure: Unveiling Sample Effectiveness With Context-Aware Federated Prompt Tuning"
+    },
+    {
+      "arxiv_id": "2412.00767",
+      "title": "Prompt as Free Lunch: Enhancing Diversity in Source-Free Cross-domain Few-shot Learning through Semantic-Guided Prompting"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Reallocating and Evolving General Knowledge for Few-Shot Learning"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Adversarial domain adaptation with CLIP for few-shot image classification"
+    },
+    {
+      "arxiv_id": "2411.19757",
+      "title": "Dual Risk Minimization: Towards Next-Level Robustness in Fine-tuning Zero-Shot Models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "General event detection algorithm of audio and video based on multimodal models"
+    },
+    {
+      "arxiv_id": "2411.19346",
+      "title": "CLIP meets DINO for Tuning Zero-Shot Classifier using Unlabeled Image Collections"
+    },
+    {
+      "arxiv_id": "2411.18674",
+      "title": "Active Data Curation Effectively Distills Large-Scale Multimodal Models"
+    },
+    {
+      "arxiv_id": "2411.18101",
+      "title": "Aligning knowledge concepts to whole slide images for precise histopathology image analysis"
+    },
+    {
+      "arxiv_id": "2411.17002",
+      "title": "Semantic Anchor Transport: Robust Test-Time Adaptation for Vision-Language Models"
+    },
+    {
+      "arxiv_id": "2411.16018",
+      "title": "Style-Pro: Style-Guided Prompt Learning for Generalizable Vision-Language Models"
+    },
+    {
+      "arxiv_id": "2411.16236",
+      "title": "DoubleCCA: Improving Foundation Model Group Robustness with Random Sentence Embeddings"
+    },
+    {
+      "arxiv_id": "2411.15735",
+      "title": "Test-time Alignment-Enhanced Adapter for Vision-Language Models"
+    },
+    {
+      "arxiv_id": "2411.15837",
+      "title": "Modality Alignment Meets Federated Broadcasting"
+    },
+    {
+      "arxiv_id": "2411.14755",
+      "title": "FairAdapter: Detecting AI-generated Images with Improved Fairness"
+    },
+    {
+      "arxiv_id": "2411.15099",
+      "title": "Context-Aware Multimodal Pretraining"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Information supplement based on Tip-adapter"
+    },
+    {
+      "arxiv_id": null,
+      "title": "MTC-Net: Multi-granular Temporal Cascade Learning for Weakly Supervised Video Anomaly Detection"
+    },
+    {
+      "arxiv_id": "2411.15232",
+      "title": "BiomedCoOp: Learning to Prompt for Biomedical Vision-Language Models"
+    },
+    {
+      "arxiv_id": "2411.11335",
+      "title": "Video-to-Task Learning via Motion-Guided Attention for Few-Shot Action Recognition"
+    },
+    {
+      "arxiv_id": "2411.11370",
+      "title": "Transmission Line Defect Detection Based on UAV Patrol Images and Vision-language Pretraining"
+    },
+    {
+      "arxiv_id": "2411.10922",
+      "title": "Exploiting VLM Localizability and Semantics for Open Vocabulary Action Detection"
+    },
+    {
+      "arxiv_id": "2411.06921",
+      "title": "UMFC: Unsupervised Multi-Domain Feature Calibration for Vision-Language Models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Debiasing CLIP with Feature Augmentation and Selective Update to Preserve Zero-Shot Capability"
+    },
+    {
+      "arxiv_id": "2411.05311",
+      "title": "ZOPP: A Framework of Zero-shot Offboard Panoptic Perception for Autonomous Driving"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Enhanced semantic-positional feature fusion network via diverse pre-trained encoders for remote sensing image water-body segmentation"
+    },
+    {
+      "arxiv_id": "2411.04008",
+      "title": "Aligning Characteristic Descriptors with Images for Human-Expert-like Explainability"
+    },
+    {
+      "arxiv_id": null,
+      "title": "QViLa: Quantum Infused Vision-Language Model for Enhanced Multimodal Understanding"
+    },
+    {
+      "arxiv_id": "2411.00330",
+      "title": "Multiple Information Prompt Learning for Cloth-Changing Person Re-Identification"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Adaptive Face Recognition for Multi-Type Occlusions"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Ump: Unified Modality-Aware Prompt Tuning for Text-Video Retrieval"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Defect detection of engine cylinder liner inner wall in multi-interference environments based on Large Vision-Language Models"
+    },
+    {
+      "arxiv_id": "2410.23556",
+      "title": "Language-Guided Hierarchical Fine-Grained Image Forgery Detection and Localization"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Spatial-Frequency Integration Network with Dual Prompt Learning for Few-shot Image Classification"
+    },
+    {
+      "arxiv_id": "2410.22317",
+      "title": "Multi-Class Textual-Inversion Secretly Yields a Semantic-Agnostic Classifier"
+    },
+    {
+      "arxiv_id": "2410.21802",
+      "title": "Text-Guided Attention is All You Need for Zero-Shot Robustness in Vision-Language Models"
+    },
+    {
+      "arxiv_id": "2410.21361",
+      "title": "Domain Adaptation with a Single Vision-Language Embedding"
+    },
+    {
+      "arxiv_id": null,
+      "title": "SSAT-Adapter: Enhancing Vision-Language Model Few-shot Learning with Auxiliary Tasks"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Training-Free Feature Reconstruction with Sparse Optimization for Vision-Language Models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Exploring the Adaptation Strategy of CLIP for Few-Shot Action Recognition"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Visual-Language Collaborative Representation Network for Broad-Domain Few-Shot Image Classification"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Hunting Blemishes: Language-guided High-fidelity Face Retouching Transformer with Limited Paired Data"
+    },
+    {
+      "arxiv_id": null,
+      "title": "HMR-Adapter: A Lightweight Adapter with Dual-Path Cross Augmentation for Expressive Human Mesh Recovery"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Dr. CLIP: CLIP-Driven Universal Framework for Zero-Shot Sketch Image Retrieval"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Multimodal Inplace Prompt Tuning for Open-set Object Detection"
+    },
+    {
+      "arxiv_id": null,
+      "title": "CoTuning: A Large-Small Model Collaborating Distillation Framework for Better Model Generalization"
+    },
+    {
+      "arxiv_id": null,
+      "title": "MoBA: Mixture of Bi-directional Adapter for Multi-modal Sarcasm Detection"
+    },
+    {
+      "arxiv_id": "2410.21411",
+      "title": "SocialGPT: Prompting LLMs for Social Relation Reasoning via Greedy Segment Optimization"
+    },
+    {
+      "arxiv_id": null,
+      "title": "CoPL:Parameter-Efficient Collaborative Prompt Learning for Audio-Visual Tasks"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Rethinking the Effect of Uninformative Class Name in Prompt Learning"
+    },
+    {
+      "arxiv_id": null,
+      "title": "UniL: Point Cloud Novelty Detection through Multimodal Pre-training"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Towards Open-vocabulary HOI Detection with Calibrated Vision-language Models and Locality-aware Queries"
+    },
+    {
+      "arxiv_id": null,
+      "title": "LTD-NET: Lightweight Two-Stream Decoder Net for Action Recognition"
+    },
+    {
+      "arxiv_id": "2410.20164",
+      "title": "Prompt Diffusion Robustifies Any-Modality Prompt Learning"
+    },
+    {
+      "arxiv_id": "2410.18267",
+      "title": "Backdoor in Seconds: Unlocking Vulnerabilities in Large Pre-trained Models via Model Editing"
+    },
+    {
+      "arxiv_id": null,
+      "title": "CoD-MIL: Chain-of-Diagnosis Prompting Multiple Instance Learning for Whole Slide Image Classification"
+    },
+    {
+      "arxiv_id": "2410.15881",
+      "title": "MI-VisionShot: Few-shot adaptation of vision-language models for slide-level classification of histopathological images"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Domain Alignment with Large Vision-language Models for Cross-domain Remote Sensing Image Retrieval"
+    },
+    {
+      "arxiv_id": null,
+      "title": "CLIP-optimized prompt for zero-shot wild animal identification"
+    },
+    {
+      "arxiv_id": "2410.15430",
+      "title": "BoostAdapter: Improving Vision-Language Test-Time Adaptation via Regional Bootstrapping"
+    },
+    {
+      "arxiv_id": null,
+      "title": "VTN-EG: CLIP-Based Visual and Textual Fusion Network for Entity Grounding"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Core-Periphery Multi-Modality Feature Alignment for Zero-Shot Medical Image Analysis"
+    },
+    {
+      "arxiv_id": "2410.12183",
+      "title": "TransAgent: Transfer Vision-Language Foundation Models with Heterogeneous Agent Collaboration"
+    },
+    {
+      "arxiv_id": "2410.12790",
+      "title": "Dual Prototype Evolving for Test-Time Generalization of Vision-Language Models"
+    },
+    {
+      "arxiv_id": "2411.00997",
+      "title": "Identifying Implicit Social Biases in Vision-Language Models"
+    },
+    {
+      "arxiv_id": "2410.11551",
+      "title": "LoKO: Low-Rank Kalman Optimizer for Online Fine-Tuning of Large Models"
+    },
+    {
+      "arxiv_id": "2410.11686",
+      "title": "A Survey of Low-shot Vision-Language Model Adaptation via Representer Theorem"
+    },
+    {
+      "arxiv_id": "2410.10791",
+      "title": "CAFuser: Condition-Aware Multimodal Fusion for Robust Semantic Perception of Driving Scenes"
+    },
+    {
+      "arxiv_id": "2410.10573",
+      "title": "Queryable Prototype Multiple Instance Learning with Vision-Language Models for Incremental Whole Slide Image Classification"
+    },
+    {
+      "arxiv_id": "2410.09845",
+      "title": "Understanding Robustness of Parameter-Efficient Tuning for Image Classification"
+    },
+    {
+      "arxiv_id": "2410.09383",
+      "title": "Deep Transfer Learning: Model Framework and Error Analysis"
+    },
+    {
+      "arxiv_id": "2410.09365",
+      "title": "Debiasing Vison-Language Models with Text-Only Training"
+    },
+    {
+      "arxiv_id": "2410.09345",
+      "title": "Contrastive Learning for Implicit Social Factors in Social Media Popularity Prediction"
+    },
+    {
+      "arxiv_id": "2410.09004",
+      "title": "DA-Ada: Learning Domain-Aware Adapter for Domain Adaptive Object Detection"
+    },
+    {
+      "arxiv_id": "2410.08895",
+      "title": "Calibrated Cache Model for Few-Shot Vision-Language Model Adaptation"
+    },
+    {
+      "arxiv_id": "2410.08211",
+      "title": "LATTECLIP: Unsupervised CLIP Fine-Tuning via LMM-Synthetic Texts"
+    },
+    {
+      "arxiv_id": "2410.07648",
+      "title": "FLIER: Few-shot Language Image Models Embedded with Latent Representations"
+    },
+    {
+      "arxiv_id": "2410.07854",
+      "title": "HeGraphAdapter: Tuning Multi-Modal Vision-Language Models with Heterogeneous Graph Adapter"
+    },
+    {
+      "arxiv_id": "2410.06154",
+      "title": "GLOV: Guided Large Language Models as Implicit Optimizers for Vision Language Models"
+    },
+    {
+      "arxiv_id": "2410.05650",
+      "title": "SIA-OVD: Shape-Invariant Adapter for Bridging the Image-Region Gap in Open-Vocabulary Detection"
+    },
+    {
+      "arxiv_id": "2410.06353",
+      "title": "Language-Assisted Human Part Motion Learning for Skeleton-Based Temporal Action Segmentation"
+    },
+    {
+      "arxiv_id": "2410.05270",
+      "title": "CLIP’s Visual Embedding Projector is a Few-shot Cornucopia"
+    },
+    {
+      "arxiv_id": null,
+      "title": "PSAM: Prompt-based Segment Anything Model Adaption for Medical Image Segmentation"
+    },
+    {
+      "arxiv_id": "2410.02681",
+      "title": "Understanding and Mitigating Miscalibration in Prompt Tuning for Vision-Language Models"
+    },
+    {
+      "arxiv_id": "2410.02924",
+      "title": "RSA: Resolving Scale Ambiguities in Monocular Depth Estimators through Language Descriptions"
+    },
+    {
+      "arxiv_id": "2410.01292",
+      "title": "Robust Imitation Learning for Mobile Manipulator Focusing on Task-Related Viewpoints and Regions"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Adapting Vision-Language Models via Learning to Inject Knowledge"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Preserving text space integrity for robust compositional zero-shot learning via mixture of pretrained experts"
+    },
+    {
+      "arxiv_id": null,
+      "title": "DCTP-Net: Dual-Branch CLIP-Enhance Textual Prompt-Aware Network for Acute Ischemic Stroke Lesion Segmentation From CT Image"
+    },
+    {
+      "arxiv_id": "2410.12816",
+      "title": "Rethinking Misalignment in Vision-Language Model Adaptation from a Causal Perspective"
+    },
+    {
+      "arxiv_id": null,
+      "title": "MVP-HOT: A Moderate Visual Prompt for Hyperspectral Object Tracking"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Cross-coupled prompt learning for few-shot image recognition"
+    },
+    {
+      "arxiv_id": "2409.20083",
+      "title": "SurgPETL: Parameter-Efficient Image-to-Surgical-Video Transfer Learning for Surgical Phase Recognition"
+    },
+    {
+      "arxiv_id": "2409.19720",
+      "title": "FAST: A Dual-tier Few-Shot Learning Paradigm for Whole Slide Image Classification"
+    },
+    {
+      "arxiv_id": "2409.19375",
+      "title": "DOTA: Distributional Test-Time Adaptation of Vision-Language Models"
+    },
+    {
+      "arxiv_id": "2409.19210",
+      "title": "Learning to Obstruct Few-Shot Image Classification over Restricted Classes"
+    },
+    {
+      "arxiv_id": "2409.17727",
+      "title": "Robotic-CLIP: Fine-Tuning CLIP on Action Data for Robotic Applications"
+    },
+    {
+      "arxiv_id": "2409.17805",
+      "title": "Cascade Prompt Learning for Vision-Language Model Adaptation"
+    },
+    {
+      "arxiv_id": "2409.17486",
+      "title": "Global-Local Medical SAM Adaptor Based on Full Adaption"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Mutual Prompt Leaning for Vision Language Models"
+    },
+    {
+      "arxiv_id": "2409.16718",
+      "title": "Vision-Language Model Fine-Tuning via Simple Parameter-Efficient Modification"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Few-Shot Learning on Edge Devices Using CLIP: A Resource-Efficient Approach for Image Classification"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Cross-Modal Remote Sensing Image–Text Retrieval via Context and Uncertainty-Aware Prompt"
+    },
+    {
+      "arxiv_id": "2409.16278",
+      "title": "Adapting Vision-Language Model with Fine-grained Semantics for Open-Vocabulary Segmentation"
+    },
+    {
+      "arxiv_id": "2409.15077",
+      "title": "TSCLIP: Robust CLIP Fine-Tuning for Worldwide Cross-Regional Traffic Sign Recognition"
+    },
+    {
+      "arxiv_id": "2409.14703",
+      "title": "MemeCLIP: Leveraging CLIP Representations for Multimodal Meme Classification"
+    },
+    {
+      "arxiv_id": "2409.14163",
+      "title": "PromptTA: Prompt-driven Text Adapter for Source-free Domain Generalization"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Active Learning for Open-Set Object Detection with Large Multimodal Model"
+    },
+    {
+      "arxiv_id": "2409.12612",
+      "title": "Enhancing Perception of Key Changes in Remote Sensing Image Change Captioning"
+    },
+    {
+      "arxiv_id": "2409.12597",
+      "title": "LARE: Latent Augmentation using Regional Embedding with Vision-Language Model"
+    },
+    {
+      "arxiv_id": "2409.11338",
+      "title": "CLIP Adaptation by Intra-modal Overlap Reduction"
+    },
+    {
+      "arxiv_id": "2409.10441",
+      "title": "CtRNet-X: Camera-to-Robot Pose Estimation in Real-World Conditions using a Single Camera"
+    },
+    {
+      "arxiv_id": "2409.09724",
+      "title": "MFCLIP: Multi-Modal Fine-Grained CLIP for Generalizable Diffusion Face Forgery Detection"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Face Helps Person Re-Identification: Multi-modality Person Re-Identification Based on Vision-Language Models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "BLIP-Adapter: Bridging Vision-Language Models with Adapters for Generalizable Face Anti-spoofing"
+    },
+    {
+      "arxiv_id": "2409.09348",
+      "title": "QTG-VQA: Question-Type-Guided Architectural for VideoQA Systems"
+    },
+    {
+      "arxiv_id": "2409.08468",
+      "title": "Generalization Boosted Adapter for Open-Vocabulary Segmentation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Tuning Vision-Language Models With Multiple Prototypes Clustering"
+    },
+    {
+      "arxiv_id": "2409.07984",
+      "title": "SPARK: Self-supervised Personalized Real-time Monocular Face Capture"
+    },
+    {
+      "arxiv_id": "2409.08381",
+      "title": "Rethinking Prompting Strategies for Multi-Label Recognition with Partial Annotations"
+    },
+    {
+      "arxiv_id": "2409.07577",
+      "title": "Self-Masking Networks for Unsupervised Adaptation"
+    },
+    {
+      "arxiv_id": "2409.06166",
+      "title": "Revisiting Prompt Pretraining of Vision-Language Models"
+    },
+    {
+      "arxiv_id": "2409.04796",
+      "title": "Local-Prompt: Extensible Local Prompts for Few-Shot Out-of-Distribution Detection"
+    },
+    {
+      "arxiv_id": "2409.03868",
+      "title": "Few-shot Adaptation of Medical Vision-Language Models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "WeakCLIP: Adapting CLIP for Weakly-Supervised Semantic Segmentation"
+    },
+    {
+      "arxiv_id": "2409.01534",
+      "title": "Cross-domain multi-step thinking: Zero-shot fine-grained traffic sign recognition in the wild"
+    },
+    {
+      "arxiv_id": "2409.02958",
+      "title": "Multi-Modal Adapter for Vision-Language Models"
+    },
+    {
+      "arxiv_id": "2409.01083",
+      "title": "Affordance-based Robot Manipulation with Flow Matching"
+    },
+    {
+      "arxiv_id": null,
+      "title": "DFCNet +: Cross-modal dynamic feature contrast net for continuous sign language recognition"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Few-Shot Image Classification of Crop Diseases Based on Vision–Language Models"
+    },
+    {
+      "arxiv_id": "2409.00397",
+      "title": "COSMo: CLIP Talks on Open-Set Multi-Target Domain Adaptation"
+    },
+    {
+      "arxiv_id": "2408.16486",
+      "title": "Adapting Vision-Language Models to Open Classes via Test-Time Prompt Tuning"
+    },
+    {
+      "arxiv_id": "2408.15600",
+      "title": "Exploring Selective Layer Fine-Tuning in Federated Learning"
+    },
+    {
+      "arxiv_id": "2408.15566",
+      "title": "TagOOD: A Novel Approach to Out-of-Distribution Detection via Vision-Language Representations and Class Center Learning"
+    },
+    {
+      "arxiv_id": "2408.14812",
+      "title": "HPT++: Hierarchically Prompting Vision-Language Models with Multi-Granularity Knowledge Generation and Improved Structure Modeling"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Enhancing Few-Shot CLIP With Semantic-Aware Fine-Tuning"
+    },
+    {
+      "arxiv_id": "2408.13979",
+      "title": "Nemesis: Normalizing the Soft-prompt Vectors of Vision-Language Models"
+    },
+    {
+      "arxiv_id": "2408.14471",
+      "title": "A Practitioner's Guide to Continual Multimodal Pretraining"
+    },
+    {
+      "arxiv_id": "2408.13320",
+      "title": "Online Zero-Shot Classification with CLIP"
+    },
+    {
+      "arxiv_id": "2408.12475",
+      "title": "Frame Order Matters: A Temporal Sequence-Aware Model for Few-Shot Action Recognition"
+    },
+    {
+      "arxiv_id": "2408.10202",
+      "title": "SANER: Annotation-free Societal Attribute Neutralizer for Debiasing CLIP"
+    },
+    {
+      "arxiv_id": "2408.10012",
+      "title": "CLIPCleaner: Cleaning Noisy Labels with CLIP"
+    },
+    {
+      "arxiv_id": "2408.09706",
+      "title": "MePT: Multi-Representation Guided Prompt Tuning for Vision-Language Model"
+    },
+    {
+      "arxiv_id": "2408.10280",
+      "title": "NoRA: Nested Low-Rank Adaptation for Efficient Fine-Tuning Large Models"
+    },
+    {
+      "arxiv_id": "2408.09085",
+      "title": "Segment Anything with Multiple Modalities"
+    },
+    {
+      "arxiv_id": "2408.08855",
+      "title": "DPA: Dual Prototypes Alignment for Unsupervised Adaptation of Vision-Language Models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Masked Channel Modeling for Bootstrapping Visual Pre-training"
+    },
+    {
+      "arxiv_id": "2408.08258",
+      "title": "Snuffy: Efficient Whole Slide Image Classifier"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Cross-modal guides spatio-temporal enrichment network for few-shot action recognition"
+    },
+    {
+      "arxiv_id": "2408.05974",
+      "title": "Unseen No More: Unlocking the Potential of CLIP for Generative Zero-shot HOI Detection"
+    },
+    {
+      "arxiv_id": "2408.05966",
+      "title": "Freehand Sketch Generation from Mechanical Components"
+    },
+    {
+      "arxiv_id": null,
+      "title": "TPTE: Text-Guided Patch Token Exploitation for Unsupervised Fine-Grained Representation Learning"
+    },
+    {
+      "arxiv_id": "2408.03355",
+      "title": "FastEdit: Fast Text-Guided Single-Image Editing via Semantic-Aware Diffusion Fine-Tuning"
+    },
+    {
+      "arxiv_id": "2408.03120",
+      "title": "Benchmarking In-the-Wild Multimodal Disease Recognition and A Versatile Baseline"
+    }
+  ]
+}

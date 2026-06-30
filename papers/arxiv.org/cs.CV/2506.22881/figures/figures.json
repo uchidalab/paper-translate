@@ -1,0 +1,170 @@
+[
+  {
+    "file": "fig-00.png",
+    "figure_no": 1,
+    "page": 2,
+    "caption": "Figure 1. Top and bottom image examples in MSCOCO captions ranked by KL divergence Eq. (8) through cosine similarity of CLIP. While the bottom samples have the same contexts like sports, the top samples have diverse contexts, including non-English contents.",
+    "score": 80.0
+  },
+  {
+    "file": "fig-01.png",
+    "figure_no": 2,
+    "page": 6,
+    "caption": "Figure 2. Zero-shot classification performance comparison between baseline and our IWL method across three downstream datasets.",
+    "score": 23.0
+  },
+  {
+    "file": "fig-02.png",
+    "figure_no": 4,
+    "page": 8,
+    "caption": "Figure 4. N-gram probability coverage across DKL deciles. Each decile in Fig. 4a is a group of captions corresponding to images i which has the same level of DKL(i). Each decile in Fig. 4b is a group of captions t which has the same level of DKL(t).",
+    "score": 0.0
+  },
+  {
+    "file": "fig-03.png",
+    "figure_no": 5,
+    "page": 14,
+    "caption": "Figure 5. Top and bottom image examples in MSCOCO captions ranked by DKLR through cosine similarity of CLIP.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-04.png",
+    "figure_no": 6,
+    "page": 15,
+    "caption": "Figure 6. Top and bottom image examples in MSCOCO captions ranked by DC through cosine similarity of CLIP.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-05.png",
+    "figure_no": 7,
+    "page": 16,
+    "caption": "Figure 7. Top and bottom image examples in MSCOCO captions ranked by DW through cosine similarity of CLIP.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-06.png",
+    "figure_no": 8,
+    "page": 17,
+    "caption": "Figure 8. Top and bottom captions ranked by DKLR.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-07.png",
+    "figure_no": 9,
+    "page": 17,
+    "caption": "Figure 9. Top and bottom captions ranked by DC.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-08.png",
+    "figure_no": 10,
+    "page": 18,
+    "caption": "Figure 10. Top and bottom captions ranked by DW.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-09.png",
+    "figure_no": 11,
+    "page": 18,
+    "caption": "Figure 11. N-gram probability coverage across KL deciles. Each decile in Figs. 11a, 11c and 11e is a group of captions corresponding to images i which has the same level of DKLR(i), DC(i) and DW(i). Each decile in Figs. 11b, 11d and 11f is a group of captions t which has the same level of each KL di",
+    "score": 0.0
+  },
+  {
+    "file": "fig-10.png",
+    "figure_no": 12,
+    "page": 19,
+    "caption": "Figure 12. Zero-shot classification performance comparison between baseline and our IWL method using SigLIP similarity scores across three downstream datasets.",
+    "score": 5.0
+  },
+  {
+    "file": "fig-11.png",
+    "figure_no": 13,
+    "page": 20,
+    "caption": "Figure 13. Top and bottom image examples in MSCOCO captions ranked by DKL through similarity score of SigLIP.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-12.png",
+    "figure_no": 14,
+    "page": 21,
+    "caption": "Figure 14. Top and bottom image examples in MSCOCO captions ranked by DKLR through similarity score of SigLIP.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-13.png",
+    "figure_no": 15,
+    "page": 22,
+    "caption": "Figure 15. Top and bottom image examples in MSCOCO captions ranked by DC through similarity score of SigLIP.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-14.png",
+    "figure_no": 16,
+    "page": 23,
+    "caption": "Figure 16. Top and bottom image examples in MSCOCO captions ranked by DW through similarity score of SigLIP.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-15.png",
+    "figure_no": 17,
+    "page": 24,
+    "caption": "Figure 17. Top and bottom captions in MSCOCO captions ranked by DKL through similarity score of SigLIP.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-16.png",
+    "figure_no": 18,
+    "page": 24,
+    "caption": "Figure 18. Top and bottom captions in MSCOCO captions ranked by DKLR through similarity score of SigLIP.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-17.png",
+    "figure_no": 19,
+    "page": 25,
+    "caption": "Figure 19. Top and bottom captions in MSCOCO captions ranked by DC through similarity score of SigLIP.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-18.png",
+    "figure_no": 20,
+    "page": 25,
+    "caption": "Figure 20. Top and bottom captions in MSCOCO captions ranked by DW through similarity score of SigLIP.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-19.png",
+    "figure_no": 21,
+    "page": 26,
+    "caption": "Figure 21. N-gram probability coverage across KL deciles calculated by SigLIP. Each decile in Figs. 11a, 11c and 11e is a group of captions corresponding to images i which has the same level of DKLR(i), DC(i) and DW(i). Each decile in Figs. 11b, 11d and 11f is a group of captions t which has the sam",
+    "score": 0.0
+  },
+  {
+    "file": "fig-20.png",
+    "figure_no": 22,
+    "page": 27,
+    "caption": "Figure 22. Visualized ground truth and predicted density ratio on image space. Each cross mark is the mean vector corresponding to the text, and blue points are the sample plots. Each metric on the upper right is computed from a grid of density ratios for each mean vector.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-21.png",
+    "figure_no": 23,
+    "page": 28,
+    "caption": "Figure 23. Scatter plots of ˆD∗(i) and normalized Bias(i) (left column), Variance(i) (center column), RMSE(i) (right column). Each row represents the errors of each estimation method. KL divergences are computed using CLIP.",
+    "score": 5.0
+  },
+  {
+    "file": "fig-22.png",
+    "figure_no": 24,
+    "page": 29,
+    "caption": "Figure 24. Scatter plots of ˆD∗(i) and normalized Bias(i) (left column), Variance(i) (center column), RMSE(i) (right column). Each row represents the errors of each estimation method. KL divergences are computed using SigLIP.",
+    "score": 5.0
+  },
+  {
+    "file": "fig-23.png",
+    "figure_no": 25,
+    "page": 30,
+    "caption": "Figure 25. Violin plot of RMSE(i) on each estimation method across different sample size n.",
+    "score": 5.0
+  }
+]
