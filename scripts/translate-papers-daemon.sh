@@ -46,8 +46,8 @@ if [[ ${#papers[@]} -eq 0 ]]; then
   exit 0
 fi
 
-# Build a shared id->slug map from all papers upfront so that Obsidian wikilinks
-# resolve correctly even when notes are generated one paper at a time.
+# Build a shared identifier->slug map from all papers upfront so Obsidian
+# wikilinks resolve across arXiv and manually imported papers.
 snake() {
   printf '%s' "$1" | tr '[:upper:]' '[:lower:]' \
     | sed -E 's/[^[:alnum:]]+/_/g; s/^_+//; s/_+$//'
@@ -56,14 +56,21 @@ local_map="$(mktemp)"
 declare -A SEEN_SLUG
 for pdf in "${papers[@]}"; do
   dir="$(dirname "$pdf")"
-  [[ -f "$dir/meta.json" ]] || continue
-  mid="$(jq -r '.id // .ID // ""' "$dir/meta.json")"
+  metadata="$(bash "$SCRIPT_DIR/paper-metadata.sh" "$dir" 2>/dev/null || true)"
+  [[ -n "$metadata" ]] || continue
+  mid="$(jq -r '.id // ""' <<<"$metadata")"
   [[ -n "$mid" ]] || continue
-  mslug="$(snake "$(jq -r '.title // .Title // ""' "$dir/meta.json")")"
+  mslug="$(snake "$(jq -r '.title // ""' <<<"$metadata")")"
   [[ -n "$mslug" ]] || mslug="$(snake "$mid")"
-  [[ -n "${SEEN_SLUG[$mslug]:-}" ]] && mslug="${mslug}_${mid//./_}"
+  [[ -n "${SEEN_SLUG[$mslug]:-}" ]] && mslug="${mslug}_$(snake "$mid")"
   SEEN_SLUG["$mslug"]=1
   printf '%s\t%s\n' "$mid" "$mslug" >> "$local_map"
+  arxiv="$(jq -r '.identifiers.arxiv // ""' <<<"$metadata")"
+  doi="$(jq -r '.identifiers.doi // ""' <<<"$metadata" | tr '[:upper:]' '[:lower:]')"
+  s2="$(jq -r '.identifiers.semantic_scholar // ""' <<<"$metadata")"
+  [[ -n "$arxiv" ]] && printf 'arxiv:%s\t%s\n%s\t%s\n' "$arxiv" "$mslug" "$arxiv" "$mslug" >> "$local_map"
+  [[ -n "$doi" ]] && printf 'doi:%s\t%s\n' "$doi" "$mslug" >> "$local_map"
+  [[ -n "$s2" ]] && printf 's2:%s\t%s\n' "$s2" "$mslug" >> "$local_map"
 done
 
 did_work=0
@@ -112,6 +119,14 @@ for pdf in "${papers[@]}"; do
 
   # 6. Refresh by-title symlink tree so the new paper is reachable right away.
   bash "$SCRIPT_DIR/update-by-title.sh" || log "WARN: update-by-title failed"
+done
+
+# A newly added paper can turn an existing external reference into a local
+# wikilink, so refresh all notes once after the full batch is known.
+for pdf in "${papers[@]}"; do
+  dir="$(dirname "$pdf")"
+  LOCAL_MAP_FILE="$local_map" \
+    bash "$SCRIPT_DIR/generate-obsidian-note.sh" "$dir" --force || log "WARN: note refresh failed for $dir"
 done
 rm -f "$local_map"
 

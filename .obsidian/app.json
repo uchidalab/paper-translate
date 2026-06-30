@@ -4,6 +4,7 @@
   "promptDelete": false,
   "userIgnoreFilters": [
     "papers/by-title/",
+    "inbox/",
     ".logs/",
     "scratchpad/"
   ]

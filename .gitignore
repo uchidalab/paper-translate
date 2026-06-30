@@ -1,6 +1,9 @@
 # Logs
 .logs/
 
+# Drop folder for manually obtained PDFs (successfully imported files are moved).
+inbox/
+
 # Python venv (PyMuPDF for figure cropping)
 .venv/
 

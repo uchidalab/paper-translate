@@ -49,10 +49,10 @@ done
 
 log "summarizing: $pdf"
 
-# Extract title from meta.json if available for a better heading.
+# Extract a title from either arq or manual metadata for a better heading.
 title=""
-if [[ -f "$dir/meta.json" ]] && command -v jq >/dev/null 2>&1; then
-  title="$(jq -r '.title // ""' "$dir/meta.json" 2>/dev/null)"
+if command -v jq >/dev/null 2>&1; then
+  title="$(bash "$SCRIPT_DIR/paper-metadata.sh" "$dir" 2>/dev/null | jq -r '.title // ""' || true)"
 fi
 
 body="$(pdftotext "$pdf" - 2>/dev/null | head -c "$SUMMARY_MAX_CHARS")"

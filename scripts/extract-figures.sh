@@ -65,7 +65,9 @@ else
   exit 1
 fi
 
-id="$(jq -r '.id // .ID // ""' "$dir/meta.json" 2>/dev/null || true)"
+metadata="$(bash "$SCRIPT_DIR/paper-metadata.sh" "$dir" 2>/dev/null || printf '{}')"
+id="$(jq -r '.id // ""' <<<"$metadata")"
+kind="$(jq -r '.kind // ""' <<<"$metadata")"
 overview="$dir/overview.png"
 figures_dir="$dir/figures"
 
@@ -149,7 +151,7 @@ PY
 fi
 
 # --- 3. Register with arq so its gallery shows the same thumbnail ------------
-if [[ -n "$id" ]] && command -v arq >/dev/null 2>&1; then
+if [[ "$kind" == "arxiv" && -n "$id" ]] && command -v arq >/dev/null 2>&1; then
   if arq thumbnail set "$id" "$overview" >/dev/null 2>&1; then
     log "arq thumbnail set: $id"
   else

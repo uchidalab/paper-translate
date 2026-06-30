@@ -1,18 +1,22 @@
 #!/usr/bin/env bash
-# watchexec wrapper: watch papers/ for new paper.pdf and invoke translate-papers-daemon.sh.
+# Watch arq/manual paper additions and the manual-PDF inbox.
 set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
+mkdir -p "$ROOT/papers" "$ROOT/inbox"
 
-# NOTE: arq stores papers at papers/arxiv.org/<category>/<id>/paper.pdf (deep).
-# The article's "*/paper.pdf" only matches one level deep and never fires here,
-# so we use "**/paper.pdf" which matches paper.pdf at any depth. Generated
-# paper_ja.pdf / paper-dual.pdf are intentionally ignored to avoid retriggering.
+# Process anything that arrived while the watcher was stopped before subscribing.
+bash "$SCRIPT_DIR/process-paper-events.sh"
+
 exec watchexec \
   --watch "$ROOT/papers" \
-  --filter "**/paper.pdf" \
+  --watch "$ROOT/inbox" \
+  --filter "**/*.pdf" \
+  --ignore "**/paper_ja.pdf" \
+  --ignore "**/*-dual.pdf" \
+  --ignore "**/*-mono.pdf" \
   --debounce 30s \
   --on-busy-update queue \
   --no-meta \
-  -- "$SCRIPT_DIR/translate-papers-daemon.sh"
+  -- "$SCRIPT_DIR/process-paper-events.sh"

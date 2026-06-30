@@ -10,8 +10,8 @@ LOG_DIR="$ROOT/.logs"
 
 echo "=== arq + pdf2zh setup ==="
 
-mkdir -p "$PAPERS_DIR" "$LOG_DIR"
-echo "created: $PAPERS_DIR"
+mkdir -p "$PAPERS_DIR" "$ROOT/inbox" "$LOG_DIR"
+echo "created: $PAPERS_DIR and $ROOT/inbox"
 echo "created: $LOG_DIR"
 
 if ! command -v git-lfs >/dev/null 2>&1; then
@@ -43,3 +43,4 @@ echo "Next steps:"
 echo "  1. ollama signin            # minimax-m3:cloud requires Ollama account"
 echo "  2. scripts/install_agent.sh install   # start watchexec daemon via launchd"
 echo "  3. arq get <arxiv_id>       # fetch a paper"
+echo "     or: cp paper.pdf $ROOT/inbox/  # import a manually obtained PDF"

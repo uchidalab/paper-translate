@@ -1,15 +1,5 @@
 #!/usr/bin/env bash
-# Generate an Obsidian note for one paper, stored alongside the paper at
-# <paper_dir>/<snake(title)>.md (e.g. attention_is_all_you_need.md).
-#
-# The repository root is the Obsidian vault, so embeds use vault-root-relative
-# paths (papers/arxiv.org/<cat>/<id>/...). References/citations from
-# references.json link to locally-held papers as [[<snake>|<title>]] wikilinks
-# (resolved by note basename) and to others as plain arXiv links.
-#
-# Usage: generate-obsidian-note.sh <paper_dir> [--force]
-#   LOCAL_MAP_FILE: optional "<id>\t<snake_basename>" map of locally-held papers
-#                   (the daemon builds this once and reuses it for all notes).
+# Generate an Obsidian note for one arq or manually imported paper.
 set -euo pipefail
 
 export PATH="$PATH:/Users/ishimarutaisei/.local/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin"
@@ -25,8 +15,6 @@ force=0
 
 mkdir -p "$LOG_DIR"
 log() { printf '[%s] %s\n' "$(date '+%Y-%m-%dT%H:%M:%S%z')" "$*" >> "$LOG_FILE"; }
-
-# Title -> snake_case slug: lowercase, non-alnum runs -> "_", trim edges.
 snake() {
   printf '%s' "$1" | tr '[:upper:]' '[:lower:]' \
     | sed -E 's/[^[:alnum:]]+/_/g; s/^_+//; s/_+$//'
@@ -38,52 +26,57 @@ if [[ -z "$dir" || ! -d "$dir" ]]; then
 fi
 command -v jq >/dev/null 2>&1 || { log "ERROR: jq not found"; exit 1; }
 
-meta="$dir/meta.json"
-[[ -f "$meta" ]] || { log "SKIP: no meta.json in $dir"; exit 0; }
+metadata="$(bash "$SCRIPT_DIR/paper-metadata.sh" "$dir" 2>/dev/null || true)"
+[[ -n "$metadata" ]] || { log "SKIP: no supported metadata in $dir"; exit 0; }
 
 abs_dir="$(cd "$dir" && pwd)"
-rel="${abs_dir#$ROOT/}"                 # vault-root-relative paper dir
-id="$(jq -r '.id // .ID // ""' "$meta")"
-[[ -n "$id" ]] || { log "ERROR: no id in $meta"; exit 1; }
+rel="${abs_dir#$ROOT/}"
+id="$(jq -r '.id // ""' <<<"$metadata")"
+[[ -n "$id" ]] || { log "ERROR: no id in metadata for $dir"; exit 1; }
+title="$(jq -r '.title // ""' <<<"$metadata")"
+category="$(jq -r '.category // ""' <<<"$metadata")"
+published="$(jq -r '.published // ""' <<<"$metadata")"
+kind="$(jq -r '.kind // ""' <<<"$metadata")"
 
-title="$(jq -r '.title // .Title // ""' "$meta")"
-category="$(jq -r '.category // .Category // ""' "$meta")"
-published="$(jq -r '.published // .Published // ""' "$meta")"
-
-# id -> snake note basename for wikilink resolution. Prefer the shared map the
-# daemon builds (handles cross-paper slug collisions); else derive locally.
 declare -A NOTE_OF
 if [[ -n "${LOCAL_MAP_FILE:-}" && -f "$LOCAL_MAP_FILE" ]]; then
-  while IFS=$'\t' read -r mid mslug; do
-    [[ -n "$mid" ]] && NOTE_OF["$mid"]="$mslug"
+  while IFS=$'\t' read -r key value; do
+    [[ -n "$key" ]] && NOTE_OF["$key"]="$value"
   done < "$LOCAL_MAP_FILE"
-else
-  while IFS= read -r lid; do
-    [[ -z "$lid" ]] && continue
-    ldir="$(dirname "$(arq path "$lid" 2>/dev/null || true)")"
-    [[ -f "$ldir/meta.json" ]] || continue
-    NOTE_OF["$lid"]="$(snake "$(jq -r '.title // .Title // ""' "$ldir/meta.json")")"
-  done < <(arq list --id 2>/dev/null || true)
 fi
 
-# This paper's own note basename (prefer the shared map for collision handling).
 slug="${NOTE_OF[$id]:-$(snake "$title")}"
 [[ -n "$slug" ]] || slug="$(snake "$id")"
 out="$dir/$slug.md"
 
-# Render one reference/citation list. Reads TSV (arxiv_id\ttitle) on stdin.
 render_links() {
-  local arxiv t safe note
-  while IFS=$'\t' read -r arxiv t; do
-    [[ -z "$arxiv" && -z "$t" ]] && continue
-    safe="${t//[\[\]|]/ }"            # keep wikilink/markdown syntax intact
-    if [[ -n "$arxiv" && "$arxiv" != "null" ]]; then
-      note="${NOTE_OF[$arxiv]:-}"
-      if [[ -n "$note" ]]; then
-        printf -- '- [[%s|%s]]\n' "$note" "$safe"
-      else
-        printf -- '- %s ([arXiv:%s](https://arxiv.org/abs/%s))\n' "$safe" "$arxiv" "$arxiv"
-      fi
+  local paper_id arxiv doi ref_title url safe key note href
+  while IFS=$'\x1f' read -r paper_id arxiv doi ref_title url; do
+    [[ -z "$paper_id" && -z "$arxiv" && -z "$doi" && -z "$ref_title" ]] && continue
+    safe="${ref_title//[\[\]|]/ }"
+    note=""
+    if [[ -n "$paper_id" ]]; then
+      key="s2:$paper_id"
+      note="${NOTE_OF[$key]:-}"
+    fi
+    if [[ -z "$note" && -n "$arxiv" ]]; then
+      key="arxiv:$arxiv"
+      note="${NOTE_OF[$key]:-}"
+    fi
+    if [[ -z "$note" && -n "$doi" ]]; then
+      key="doi:$(printf '%s' "$doi" | tr '[:upper:]' '[:lower:]')"
+      note="${NOTE_OF[$key]:-}"
+    fi
+    if [[ -n "$note" ]]; then
+      printf -- '- [[%s|%s]]\n' "$note" "$safe"
+      continue
+    fi
+    href=""
+    [[ -n "$arxiv" ]] && href="https://arxiv.org/abs/$arxiv"
+    [[ -z "$href" && -n "$doi" ]] && href="https://doi.org/$doi"
+    [[ -z "$href" && -n "$url" ]] && href="$url"
+    if [[ -n "$href" ]]; then
+      printf -- '- [%s](%s)\n' "$safe" "$href"
     else
       printf -- '- %s\n' "$safe"
     fi
@@ -93,8 +86,8 @@ render_links() {
 refs_tsv=""
 cites_tsv=""
 if [[ -f "$dir/references.json" ]]; then
-  refs_tsv="$(jq -r '.references[]? | [(.arxiv_id // ""), (.title // "")] | @tsv' "$dir/references.json")"
-  cites_tsv="$(jq -r '.citations[]? | select((.arxiv_id // "") != "") | [(.arxiv_id // ""), (.title // "")] | @tsv' "$dir/references.json")"
+  refs_tsv="$(jq -r '.references[]? | [(.paper_id // ""), (.arxiv_id // ""), (.doi // ""), (.title // ""), (.url // "")] | join("\u001f")' "$dir/references.json")"
+  cites_tsv="$(jq -r '.citations[]? | [(.paper_id // ""), (.arxiv_id // ""), (.doi // ""), (.title // ""), (.url // "")] | join("\u001f")' "$dir/references.json")"
 fi
 
 if [[ -f "$out" && "$force" -eq 0 ]]; then
@@ -105,14 +98,14 @@ fi
 tmp="$out.tmp.$$"
 {
   echo "---"
-  echo "id: $id"
-  # jq -r produces a YAML-safe scalar; wrap title in quotes and escape quotes.
+  printf 'id: "%s"\n' "${id//\"/\\\"}"
   printf 'title: "%s"\n' "${title//\"/\\\"}"
   printf 'aliases: ["%s"]\n' "${title//\"/\\\"}"
-  jq -r '"authors:\n" + ((.authors // []) | map("  - " + .) | join("\n"))' "$meta"
-  echo "category: $category"
-  echo "published: $published"
+  jq -r '"authors:\n" + ((.authors // []) | map("  - \"" + (gsub("\\\""; "\\\\\"")) + "\"") | join("\n"))' <<<"$metadata"
+  printf 'category: "%s"\n' "${category//\"/\\\"}"
+  printf 'published: "%s"\n' "${published//\"/\\\"}"
   [[ -f "$dir/overview.png" ]] && echo "thumbnail: $rel/overview.png"
+  echo "source_type: $kind"
   echo "tags: [paper]"
   echo "---"
   echo
@@ -129,7 +122,7 @@ tmp="$out.tmp.$$"
   [[ -f "$dir/paper_ja.pdf" ]] && links+=("[日本語PDF]($rel/paper_ja.pdf)")
   if [[ ${#links[@]} -gt 0 ]]; then
     line="${links[0]}"
-    for l in "${links[@]:1}"; do line+=" · $l"; done
+    for link in "${links[@]:1}"; do line+=" · $link"; done
     echo "$line"
     echo
   fi
@@ -141,19 +134,11 @@ tmp="$out.tmp.$$"
   fi
   echo "## 参考文献 (references)"
   echo
-  if [[ -n "$refs_tsv" ]]; then
-    printf '%s\n' "$refs_tsv" | render_links
-  else
-    echo "_（取得なし）_"
-  fi
+  [[ -n "$refs_tsv" ]] && printf '%s\n' "$refs_tsv" | render_links || echo "_（取得なし）_"
   echo
   echo "## 被引用 (citations)"
   echo
-  if [[ -n "$cites_tsv" ]]; then
-    printf '%s\n' "$cites_tsv" | render_links
-  else
-    echo "_（取得なし）_"
-  fi
+  [[ -n "$cites_tsv" ]] && printf '%s\n' "$cites_tsv" | render_links || echo "_（取得なし）_"
 } > "$tmp"
 
 mv "$tmp" "$out"
